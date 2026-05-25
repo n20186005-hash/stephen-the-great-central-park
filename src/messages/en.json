@@ -71,6 +71,10 @@
     "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
     "type": "Attraction Type",
     "typeValue": "Park",
+    "established": "Established",
+    "establishedValue": "1818",
+    "area": "Area",
+    "areaValue": "7 hectares (17 acres)",
     "country": "Country",
     "countryValue": "Moldova",
     "city": "City",
@@ -86,6 +90,9 @@
     "title": "Visiting Hours",
     "park": "Site Access",
     "parkTime": "Open year-round (24/7)",
+    "fountain": "Fountain & Lighting",
+    "fountainTime": "Summer 09:00 - 22:00",
+    "fountainNote": "Night lighting turns off at 23:00",
     "bestTime": "Best Time to Visit",
     "bestTimeSpring": "Spring: Flowers blooming and pleasant weather",
     "bestTimeSummer": "Summer: Shade under trees, ideal for walks",
@@ -100,7 +107,9 @@
     "parking": "Parking",
     "parkingPrice": "Street parking (paid in city center)",
     "guided": "Guided Tours",
-    "guidedPrice": "Self-guided"
+    "guidedPrice": "Self-guided",
+    "facilities": "Park Facilities",
+    "facilitiesDesc": "Children's playground, public benches, and Wi-Fi spots are free to use"
   },
   "transport": {
     "title": "How to Get Here",
@@ -258,6 +267,8 @@
     "openMaps": "View on Google Maps"
   },
   "footer": {
+    "title": "Stephen the Great Central Park",
+    "subtitle": "Park · Chișinău",
     "rights": "© 2026 Stephen the Great Central Park Independent Tourism Research Association · All Rights Reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

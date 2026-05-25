@@ -70,6 +70,10 @@
     "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
     "type": "景点类型",
     "typeValue": "公园",
+    "established": "建园时间",
+    "establishedValue": "1818年",
+    "area": "占地面积",
+    "areaValue": "7公顷 (17英亩)",
     "country": "国家",
     "countryValue": "摩尔多瓦",
     "city": "城市",
@@ -85,6 +89,9 @@
     "title": "开放时间",
     "park": "景区开放",
     "parkTime": "全年开放（24/7）",
+    "fountain": "喷泉与照明",
+    "fountainTime": "夏季 09:00 - 22:00",
+    "fountainNote": "夜间照明至 23:00 关闭",
     "bestTime": "最佳游览时间",
     "bestTimeSpring": "春季：百花齐放，天气宜人",
     "bestTimeSummer": "夏季：树荫下避暑，适合散步",
@@ -99,7 +106,9 @@
     "parking": "停车",
     "parkingPrice": "路边停车（市中心收费）",
     "guided": "导游服务",
-    "guidedPrice": "自助游览"
+    "guidedPrice": "自助游览",
+    "facilities": "公园设施",
+    "facilitiesDesc": "儿童游乐区、公共长椅、公共Wi-Fi热点均可免费使用"
   },
   "transport": {
     "title": "交通指南",
@@ -257,6 +266,8 @@
     "openMaps": "在Google地图上查看位置"
   },
   "footer": {
+    "title": "史蒂芬大帝中央公园",
+    "subtitle": "公园 · 基希讷乌",
     "rights": "© 2026 史蒂芬大帝中央公园独立旅游研究协会 · 保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款",

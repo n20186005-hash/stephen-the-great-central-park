@@ -64,19 +64,36 @@ export default function TicketsSection() {
           </div>
         </div>
 
-        {/* Guided Tour */}
-        <div
-          className="mt-6 rounded-xl p-5 flex items-start gap-4"
-          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
-            <circle cx="12" cy="12" r="10"/>
-            <line x1="12" y1="16" x2="12" y2="12"/>
-            <line x1="12" y1="8" x2="12.01" y2="8"/>
-          </svg>
-          <div>
-            <p className="font-medium" style={{ color: 'var(--text-primary)' }}>{t('guided')}</p>
-            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('guidedPrice')}</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+          <div
+            className="rounded-xl p-5 flex items-start gap-4"
+            style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            <div>
+              <p className="font-medium" style={{ color: 'var(--text-primary)' }}>{t('guided')}</p>
+              <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('guidedPrice')}</p>
+            </div>
+          </div>
+
+          <div
+            className="rounded-xl p-5 flex items-start gap-4"
+            style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <path d="M12 8v8"></path>
+              <path d="M8 12h8"></path>
+            </svg>
+            <div>
+              <p className="font-medium" style={{ color: 'var(--text-primary)' }}>{t('facilities')}</p>
+              <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('facilitiesDesc')}</p>
+            </div>
           </div>
         </div>
       </div>

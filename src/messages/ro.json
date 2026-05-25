@@ -70,6 +70,10 @@
     "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
     "type": "Tip atracție",
     "typeValue": "Parc",
+    "established": "Anul înființării",
+    "establishedValue": "1818",
+    "area": "Suprafață",
+    "areaValue": "7 hectare (17 acri)",
     "country": "Țară",
     "countryValue": "Republica Moldova",
     "city": "Oraș",
@@ -85,6 +89,9 @@
     "title": "Program de vizitare",
     "park": "Acces în parc",
     "parkTime": "Deschis tot timpul anului (24/7)",
+    "fountain": "Fântână & Iluminat",
+    "fountainTime": "Vara 09:00 - 22:00",
+    "fountainNote": "Iluminatul de noapte se oprește la 23:00",
     "bestTime": "Cele mai bune momente pentru vizitare",
     "bestTimeSpring": "Primăvara: Flori înflorite și vreme plăcută",
     "bestTimeSummer": "Vara: Umbră sub copaci, ideal pentru plimbări",
@@ -99,7 +106,9 @@
     "parking": "Parcare",
     "parkingPrice": "Parcare stradală (cu plată în centru)",
     "guided": "Tururi ghidate",
-    "guidedPrice": "Auto-vizitare"
+    "guidedPrice": "Auto-vizitare",
+    "facilities": "Facilități în parc",
+    "facilitiesDesc": "Locul de joacă pentru copii, băncile publice și hotspot-urile Wi-Fi sunt gratuite"
   },
   "transport": {
     "title": "Cum să ajungeți",
@@ -257,6 +266,8 @@
     "openMaps": "Vezi pe Google Maps"
   },
   "footer": {
+    "title": "Stephen the Great Central Park",
+    "subtitle": "Parc · Chișinău",
     "rights": "© 2026 Asociația Independentă de Cercetare Turistică a Parcului Central Ștefan cel Mare · Toate drepturile rezervate.",
     "privacy": "Politica de confidențialitate",
     "terms": "Termeni de utilizare",
