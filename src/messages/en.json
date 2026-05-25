@@ -77,8 +77,6 @@
     "cityValue": "Chișinău",
     "googleRating": "Google Rating",
     "googleRatingValue": "4.6 (14,548)",
-    "phone": "Phone",
-    "phoneValue": "+37322201707",
     "address": "Address",
     "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
     "plusCode": "Plus Code",
@@ -93,7 +91,7 @@
     "bestTimeSummer": "Summer: Shade under trees, ideal for walks",
     "bestTimeAutumn": "Autumn: Colorful leaves and romantic atmosphere",
     "bestTimeWinter": "Winter: Fairy-tale snow landscapes",
-    "tip": "The park is accessible 24/7. Special events may affect certain areas, please check the official website for updates."
+    "tip": "The park is accessible 24/7. Special events may affect certain areas, please check the latest government announcements for updates."
   },
   "tickets": {
     "title": "Admission Information",
@@ -260,11 +258,11 @@
     "openMaps": "View on Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Stephen the Great Central Park Info",
+    "rights": "© 2026 Stephen the Great Central Park Independent Tourism Research Association · All Rights Reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Official & Partner Resources",
+    "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
       "mcGov": "Ministry of Culture of Moldova",
       "turismGov": "Tourism Agency of Moldova",
@@ -272,7 +270,7 @@
       "chisinau": "Chișinău City Hall",
       "proiecteChisinau": "Chișinău Projects"
     },
-    "disclaimer": "This is an independent guide website dedicated to providing objective and accurate travel information."
+    "disclaimer": "This website is an independent third-party travel information project. We are not affiliated with the local government or any other official institutions."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -331,6 +329,6 @@
   },
   "officialManagement": {
     "title": "About Stephen the Great Central Park",
-    "text": "Grădina Publică „Ștefan cel Mare și Sfânt\" is the oldest and most iconic park in Chișinău, being a perfect example of combining city history with nature."
+    "text": "Grădina Publică „Ștefan cel Mare și Sfânt\" is the oldest and most iconic park in Chișinău, being a perfect example of combining city history with nature. The area is co-managed by the Chișinău City Hall and local environmental protection departments for ecological conservation and daily management."
   }
 }
