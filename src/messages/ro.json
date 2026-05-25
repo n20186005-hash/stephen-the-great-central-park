@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Stephen the Great Central Park",
+    "description": "Ghid complet pentru Parcul Central Ștefan cel Mare și Sfânt din Chișinău. Aflați despre această atracție, locație, informații de vizitare și sfaturi de călătorie."
+  },
+  "header": {
+    "home": "Acasă",
+    "gallery": "Galerie",
+    "reviews": "Recenzii",
+    "map": "Hartă",
+    "backToHome": "Înapoi la Acasă"
+  },
+  "hero": {
+    "title": "Stephen the Great Central Park",
+    "subtitle": "Parc · Chișinău",
+    "rating": "4.6",
+    "reviewCount": "14,548 recenzii",
+    "type": "Parc",
+    "openMaps": "Vezi pe Google Maps"
+  },
+  "intro": {
+    "title": "Descoperă Stephen the Great Central Park",
+    "description": "Grădina Publică „Ștefan cel Mare și Sfânt\" este cel mai vechi parc din Chișinău, înființat în 1818. Este un loc iconic de relaxare în inima capitalei Moldovei, frecventat atât de localnici, cât și de turiști. Parcurgând aleile umbroase, veți descoperi monumente istorice, fântâni decorative și o atmosferă unică de liniște și verdeață.",
+    "visitGuide": {
+      "title": "Sfaturi de vizitare",
+      "items": [
+        "Parcul este deschis tot timpul anului și accesul este gratuit.",
+        "Loc ideal pentru plimbări leisure, citit sub copaci sau relaxare.",
+        "Oferă o priveliște excelentă asupra Bulevardului Ștefan cel Mare și a clădirilor istorice."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Obiective principale",
+      "items": [
+        "Statuia lui Ștefan cel Mare",
+        "Aleea Clasicilor",
+        "Fântâna cu Cascadă",
+        "Muzeul Național de Istorie"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "Despre Stephen the Great Central Park",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Istoric",
+        "content": "Parcul a fost înființat în 1818, fiind cel mai vechi parc din Chișinău. Inițial numit „Grădina Publică\", a fost proiectat de arhitectul german Johann F. W. Meinz. De-a lungul secolelor, parcul a fost martorul multor evenimente istorice și a suferit transformări semnificative, păstrându-și totuși farmecul original."
+      },
+      {
+        "id": "layout",
+        "title": "Geografie și Amenajare",
+        "content": "Parcul este situat în centrul orașului, pe Bulevardul Ștefan cel Mare și Sfânt. Acesta este împărțit în mai multe zone, inclusiv faimoasa „Aleea Clasicilor\" unde sunt plasați aproximativ 20 de busturi ale scriitorilor și poeților români celebri. În centru se află statuia lui Ștefan cel Mare, simbol al orașului."
+      },
+      {
+        "id": "culture",
+        "title": "Semnificație Culturală",
+        "content": "Fiind „plămânul verde\" al Chișinăului, parcul este locul de întâlnire preferat al localnicilor. Aici se organizează adesea evenimente culturale, concerte în aer liber și expoziții. Este un simbol al identității naționale și un loc de odihnă indispensabil pentru locuitorii capitalei."
+      },
+      {
+        "id": "biodiversity",
+        "title": "Floră și Faună",
+        "content": "Grădina adăpostește o mare varietate de specii de arbori și arbuști, inclusiv stejari seculari, platani, tei și conifere. Peisajul verde oferă un refugiu pentru diverse specii de păsări din mediul urban, fiind un loc ideal pentru iubitorii de natură."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Informații de bază",
+    "officialName": "Denumire oficială",
+    "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
+    "type": "Tip atracție",
+    "typeValue": "Parc",
+    "country": "Țară",
+    "countryValue": "Republica Moldova",
+    "city": "Oraș",
+    "cityValue": "Chișinău",
+    "googleRating": "Rating Google",
+    "googleRatingValue": "4.6 (14,548)",
+    "phone": "Telefon",
+    "phoneValue": "+37322201707",
+    "address": "Adresă",
+    "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "2RGH+65 Chișinău, Moldova"
+  },
+  "hours": {
+    "title": "Program de vizitare",
+    "park": "Acces în parc",
+    "parkTime": "Deschis tot timpul anului (24/7)",
+    "bestTime": "Cele mai bune momente pentru vizitare",
+    "bestTimeSpring": "Primăvara: Flori înflorite și vreme plăcută",
+    "bestTimeSummer": "Vara: Umbră sub copaci, ideal pentru plimbări",
+    "bestTimeAutumn": "Toamna: Frunze colorate și atmosferă romantică",
+    "bestTimeWinter": "Iarna: Peisaje de poveste cu zăpadă",
+    "tip": "Parcul este accesibil non-stop. Evenimentele speciale pot afecta anumite zone, vă rugăm să verificați site-ul oficial pentru actualizări."
+  },
+  "tickets": {
+    "title": "Informații despre intrare",
+    "park": "Vizitare",
+    "parkPrice": "Intrare liberă",
+    "parking": "Parcare",
+    "parkingPrice": "Parcare stradală (cu plată în centru)",
+    "guided": "Tururi ghidate",
+    "guidedPrice": "Auto-vizitare"
+  },
+  "transport": {
+    "title": "Cum să ajungeți",
+    "fromCenter": "Din centru",
+    "fromCenterDesc": "Parcul este situat chiar în centrul orașului, pe Bulevardul Ștefan cel Mare.",
+    "fromStation": "De la gară/autogară",
+    "fromStationDesc": "Accesibil cu transportul public sau taxiul din orice punct al orașului.",
+    "fromAirport": "De la Aeroportul Internațional Chișinău",
+    "fromAirportDesc": "Luați un taxi sau microbuzul spre centru, apoi mergeți pe jos până la parc.",
+    "publicTransport": "Transport public",
+    "publicTransportDesc": "Numeroase rute de autobuze și troleibuze au stații în apropierea parcului.",
+    "walking": "Pietonal",
+    "walkingDesc": "Accesibil pe jos din orice zonă centrală a Chișinăului.",
+    "driving": "Cu mașina",
+    "drivingDesc": "Parcarea în centru este limitată și cu plată. Se recomandă transportul public."
+  },
+  "route": {
+    "title": "Traseu recomandat",
+    "overview": "O plimbare leisure prin aleile istorice ale parcului.",
+    "steps": [
+      "Începeți de la Statuia lui Ștefan cel Mare din centrul parcului",
+      "Parcurgeți Aleea Clasicilor și admirați busturile poeților",
+      "Vizitați Fântâna cu Cascadă și zonele verzi",
+      "Admirați arhitectura clădirilor din jurul parcului",
+      "Relaxați-vă pe o bancă și bucurați-vă de atmosferă"
+    ]
+  },
+  "photoSpots": {
+    "title": "Cele mai bune locuri pentru fotografii",
+    "spots": [
+      {
+        "title": "Statuia lui Ștefan cel Mare",
+        "description": "Simbolul orașului Chișinău. O poză lângă statuie este obligatorie pentru orice vizitator.",
+        "location": "Centrul parcului",
+        "image": "/gallery/stephen-the-great-central-park (2).jpg"
+      },
+      {
+        "title": "Aleea Clasicilor",
+        "description": "Aleea cu busturi ale scriitorilor români. Perfectă pentru fotografii artistice și cultural-educative.",
+        "location": "Partea centrală a parcului",
+        "image": "/gallery/stephen-the-great-central-park (4).jpg"
+      },
+      {
+        "title": "Fântâna cu Cascadă",
+        "description": "O fântână decorativă frumoasă, ideală pentru fotografii de vară și toamnă.",
+        "location": "În parc",
+        "image": "/gallery/stephen-the-great-central-park (5).jpg"
+      },
+      {
+        "title": "Aleile umbroase",
+        "description": "Aleile liniștite și umbroase oferă o atmosferă de poveste, perfecte pentru portrete.",
+        "location": "Întregul parc",
+        "image": "/gallery/stephen-the-great-central-park (8).jpg"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "Ghid de cazare",
+    "hotels": [
+      {
+        "name": "Centrul Chișinăului",
+        "desc": "Zona din jurul parcului oferă numeroase hoteluri și pensiuni. Ideal pentru turiștii care vor să fie în inima acțiunii și să aibă acces rapid la atracțiile principale.",
+        "price": "Recomandat"
+      },
+      {
+        "name": "Bulevardul Ștefan cel Mare",
+        "desc": "Artera principală a orașului, plină de magazine, restaurante și clădiri istorice. Cazarea aici oferă acces facil la transportul public.",
+        "price": "Recomandat"
+      },
+      {
+        "name": "Zona Teatrului Național",
+        "desc": "Apropierea de Teatrul Național „Mihai Eminescu\" oferă o experiență culturală completă. Zona este liniștită și elegantă.",
+        "price": "Recomandat"
+      },
+      {
+        "name": "Împrejurimile Parcului",
+        "desc": "Cazarea în imediata apropiere a parcului vă permite să vă bucurați de plimbări dimineața devreme sau seara târziu, când parcul este mai puțin aglomerat.",
+        "price": "Recomandat"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie Foto",
+    "subtitle": "Priveliști din Stephen the Great Central Park",
+    "captions": [
+      "Vedere de ansamblu",
+      "Statuia lui Ștefan cel Mare",
+      "Aleile parcului",
+      "Aleea Clasicilor",
+      "Fântâna cu Cascadă",
+      "Priveliște urbană",
+      "Zăpadă de iarnă",
+      "Aleile umbroase",
+      "Drumuri în parc",
+      "Detalii ale monumentelor",
+      "Statui",
+      "Vizitatori",
+      "Ceată de dimineață",
+      "Bănci",
+      "Spații verzi",
+      "Flori",
+      "Scări",
+      "Vedere panoramică"
+    ],
+    "viewAll": "Vezi pe Google Maps",
+    "showAll": "Vezi toate fotografiile",
+    "showLess": "Arată mai puține"
+  },
+  "reviews": {
+    "title": "Recenzii de la vizitatori",
+    "declaration": "Recenziile vizitatorilor pot fi vizualizate prin Google Maps.",
+    "moreReviews": "Vezi mai multe recenzii pe Google Maps",
+    "items": [
+      {
+        "name": "Ion P.",
+        "rating": 5,
+        "date": "2026-04-12",
+        "text": "Un loc minunat în inima Chișinăului. Mereu vin aici să mă relaxez și să fac plimbări. Este plin de istorie și verdeață."
+      },
+      {
+        "name": "Maria L.",
+        "rating": 5,
+        "date": "2026-03-28",
+        "text": "Parcul este foarte bine întreținut. Aleea Clasicilor este impresionantă, iar statuia lui Ștefan cel Mare este un simbol nelipsit din pozele mele."
+      },
+      {
+        "name": "Alexandru T.",
+        "rating": 4,
+        "date": "2026-05-01",
+        "text": "Un loc excelent pentru plimbări de seară. Este luminat și sigur, iar atmosfera este foarte plăcută, mai ales primăvara și vara."
+      },
+      {
+        "name": "Elena K.",
+        "rating": 5,
+        "date": "2026-02-15",
+        "text": "Fiind un iubitor de istorie, acest parc este locul meu preferat. Monumentele și aleile au o poveste de spus. Recomand cu căldură!"
+      },
+      {
+        "name": "Sergiu M.",
+        "rating": 5,
+        "date": "2025-10-22",
+        "text": "Perfect pentru plimbări cu familia. Copiii se pot juca în siguranță, iar adulții se pot relaxa pe bănci la umbră."
+      },
+      {
+        "name": "Victoria R.",
+        "rating": 5,
+        "date": "2025-08-09",
+        "text": "Un refugiu de liniște în mijlocul orașului aglomerat. Merg aici să citesc o carte sau să mă bucur de natură."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Locație pe hartă",
+    "subtitle": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "openMaps": "Vezi pe Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Stephen the Great Central Park Info",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni de utilizare",
+    "cookies": "Setări Cookie",
+    "officialResourcesTitle": "Resurse oficiale și partenere",
+    "officialLinks": {
+      "mcGov": "Ministerul Culturii al RM",
+      "turismGov": "Agenția Turismului",
+      "airm": "Agenția de Inspectare și Restaurare a Monumentelor",
+      "chisinau": "Primăria Municipiului Chișinău",
+      "proiecteChisinau": "Proiecte Chișinău"
+    },
+    "disclaimer": "Acesta este un site ghid independent, dedicat furnizării de informații obiective și exacte despre călătorii."
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "lastUpdated": "Ultima actualizare: Mai 2026",
+    "sections": [
+      {
+        "title": "Colectarea informațiilor",
+        "content": "Când vizitați site-ul nostru, putem colecta automat informații de bază despre dispozitivul dumneavoastră, browser și comportamentul de navigare pentru a oferi o experiență mai bună utilizatorului. Aceste informații nu conțin identitatea dumneavoastră."
+      },
+      {
+        "title": "Utilizarea Cookie-urilor",
+        "content": "Folosim cookie-uri pentru a analiza traficul site-ului și pentru a optimiza conținutul paginilor. Puteți gestiona preferințele oricând prin opțiunea de Setări Cookie din partea de jos a site-ului."
+      },
+      {
+        "title": "Securitatea și protecția datelor",
+        "content": "Ne angajăm să protejăm securitatea datelor dumneavoastră de confidențialitate și nu vom vinde, închiria sau tranzacționa datele dumneavoastră de navigare către nicio organizație comercială terță."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termeni de utilizare",
+    "lastUpdated": "Ultima actualizare: Mai 2026",
+    "sections": [
+      {
+        "title": "Conținutul site-ului și utilizarea",
+        "content": "Acest site oferă informații despre Parcul Central Ștefan cel Mare și Sfânt. Tot conținutul este doar pentru referință. Programul de vizitare și informațiile despre bilete pot suferi modificări în orice moment, vă rugăm să consultați anunțurile oficiale."
+      },
+      {
+        "title": "Proprietatea intelectuală",
+        "content": "Textele, imaginile și designul de layout de pe acest site sunt protejate prin drepturi de autor. Fără permisiune scrisă explicită, nimeni nu poate folosi conținutul site-ului în scopuri comerciale."
+      },
+      {
+        "title": "Declinarea răspunderii",
+        "content": "Facem eforturi pentru a asigura acuratețea și actualitatea informațiilor, dar nu ne asumăm răspunderea juridică pentru orice întârzieri ale călătoriei sau pierderi cauzate direct sau indirect de utilizarea informațiilor furnizate pe acest site."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Setări Cookie",
+    "description": "Gestionați-vă preferințele pentru cookie-uri.",
+    "essential": {
+      "title": "Cookie-uri esențiale",
+      "description": "Necesare pentru funcționalitatea de bază a site-ului și nu pot fi dezactivate.",
+      "badge": "Întotdeauna active"
+    },
+    "analytics": {
+      "title": "Analiză",
+      "description": "Ne ajută să înțelegem comportamentul vizitatorilor și să îmbunătățim site-ul."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Folosite pentru urmărire inter-site și livrare de reclame personalizate."
+    },
+    "save": "Salvează preferințele",
+    "saved": "Preferințe salvate!"
+  },
+  "officialManagement": {
+    "title": "Despre Stephen the Great Central Park",
+    "text": "Grădina Publică „Ștefan cel Mare și Sfânt\" este cel mai vechi și mai iconic parc din Chișinău, fiind o combinație perfectă între istoria orașului și natura urbană."
+  }
+}

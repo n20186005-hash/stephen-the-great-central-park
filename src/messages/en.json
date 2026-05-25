@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Stephen the Great Central Park",
+    "description": "Complete guide to Stephen the Great Central Park in Chișinău. Learn about this scenic spot, its location, visiting information, and travel tips."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Stephen the Great Central Park",
+    "subtitle": "Park · Chișinău",
+    "rating": "4.6",
+    "reviewCount": "14,548 reviews",
+    "type": "Park",
+    "openMaps": "View on Google Maps",
+    "mapsLink": "https://maps.app.goo.gl/8LzxATcmZkTe2biT7"
+  },
+  "intro": {
+    "title": "Discover Stephen the Great Central Park",
+    "description": "Grădina Publică „Ștefan cel Mare și Sfânt\" is the oldest park in Chișinău, established in 1818. It is an iconic relaxation spot in the heart of Moldova's capital, frequented by both locals and tourists. Walking along the shady alleys, you will discover historical monuments, decorative fountains, and a unique atmosphere of tranquility and greenery.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "The park is accessible year-round and admission is free.",
+        "Great place for a leisurely walk, reading under the trees, or relaxing.",
+        "Provides excellent views of Ștefan cel Mare Boulevard and historic buildings."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Stephen the Great Statue",
+        "Alley of Classics",
+        "Cascade Fountain",
+        "National History Museum"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "About Stephen the Great Central Park",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historical Background",
+        "content": "The park was established in 1818 as the oldest park in Chișinău. Originally called \"Public Garden\", it was designed by German architect Johann F. W. Meinz. Throughout the centuries, the park has witnessed many historical events and undergone significant transformations while preserving its original charm."
+      },
+      {
+        "id": "layout",
+        "title": "Geography & Layout",
+        "content": "The park is located in the city center on Ștefan cel Mare și Sfânt Boulevard. It is divided into several areas, including the famous \"Alley of Classics\" where approximately 20 busts of celebrated Romanian writers and poets are placed. In the center stands the Stephen the Great statue, a symbol of the city."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Significance",
+        "content": "As the \"green lung\" of Chișinău, the park is the preferred meeting place for locals. Cultural events, open-air concerts, and exhibitions are frequently organized here. It is a symbol of national identity and an indispensable resting place for capital residents."
+      },
+      {
+        "id": "biodiversity",
+        "title": "Ecology & Flora",
+        "content": "The garden hosts a wide variety of tree and shrub species, including centuries-old oaks, plane trees, linden trees, and conifers. The green landscape provides a refuge for various urban bird species, making it ideal for nature lovers."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
+    "type": "Attraction Type",
+    "typeValue": "Park",
+    "country": "Country",
+    "countryValue": "Moldova",
+    "city": "City",
+    "cityValue": "Chișinău",
+    "googleRating": "Google Rating",
+    "googleRatingValue": "4.6 (14,548)",
+    "phone": "Phone",
+    "phoneValue": "+37322201707",
+    "address": "Address",
+    "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "2RGH+65 Chișinău, Moldova"
+  },
+  "hours": {
+    "title": "Visiting Hours",
+    "park": "Site Access",
+    "parkTime": "Open year-round (24/7)",
+    "bestTime": "Best Time to Visit",
+    "bestTimeSpring": "Spring: Flowers blooming and pleasant weather",
+    "bestTimeSummer": "Summer: Shade under trees, ideal for walks",
+    "bestTimeAutumn": "Autumn: Colorful leaves and romantic atmosphere",
+    "bestTimeWinter": "Winter: Fairy-tale snow landscapes",
+    "tip": "The park is accessible 24/7. Special events may affect certain areas, please check the official website for updates."
+  },
+  "tickets": {
+    "title": "Admission Information",
+    "park": "Site Visit",
+    "parkPrice": "Free admission",
+    "parking": "Parking",
+    "parkingPrice": "Street parking (paid in city center)",
+    "guided": "Guided Tours",
+    "guidedPrice": "Self-guided"
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "fromCenter": "From City Center",
+    "fromCenterDesc": "The park is located right in the city center on Ștefan cel Mare Boulevard.",
+    "fromStation": "From Train/Bus Station",
+    "fromStationDesc": "Accessible by public transport or taxi from any point in the city.",
+    "fromAirport": "From Chișinău International Airport",
+    "fromAirportDesc": "Take a taxi or minibus to the city center, then walk to the park.",
+    "publicTransport": "Public Transport",
+    "publicTransportDesc": "Numerous bus and trolleybus routes have stops near the park.",
+    "walking": "Walking",
+    "walkingDesc": "Accessible on foot from any central area of Chișinău.",
+    "driving": "Driving",
+    "drivingDesc": "Parking in the center is limited and paid. Public transport is recommended."
+  },
+  "route": {
+    "title": "Recommended Route",
+    "overview": "Take a leisurely stroll through the historic alleys of the park.",
+    "steps": [
+      "Start at the Stephen the Great Statue in the park center",
+      "Walk along the Alley of Classics and admire the writers' busts",
+      "Visit the Cascade Fountain and green areas",
+      "Admire the architecture of the surrounding buildings",
+      "Relax on a bench and enjoy the atmosphere"
+    ]
+  },
+  "photoSpots": {
+    "title": "Top Photo Spots",
+    "spots": [
+      {
+        "title": "Stephen the Great Statue",
+        "description": "The symbol of Chișinău city. A photo next to the statue is a must for any visitor.",
+        "location": "Park center",
+        "image": "/gallery/stephen-the-great-central-park (2).jpg"
+      },
+      {
+        "title": "Alley of Classics",
+        "description": "Alley with busts of Romanian writers. Perfect for artistic and cultural photography.",
+        "location": "Central part of the park",
+        "image": "/gallery/stephen-the-great-central-park (4).jpg"
+      },
+      {
+        "title": "Cascade Fountain",
+        "description": "A beautiful decorative fountain, ideal for summer and autumn photography.",
+        "location": "In the park",
+        "image": "/gallery/stephen-the-great-central-park (5).jpg"
+      },
+      {
+        "title": "Shady Alleys",
+        "description": "Quiet and shady alleys offer a fairy-tale atmosphere, perfect for portraits.",
+        "location": "Throughout the park",
+        "image": "/gallery/stephen-the-great-central-park (8).jpg"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "Accommodation Guide",
+    "hotels": [
+      {
+        "name": "Chișinău City Center",
+        "desc": "The area around the park offers numerous hotels and guest houses. Ideal for tourists who want to be in the heart of the action and have quick access to main attractions.",
+        "price": "Recommended"
+      },
+      {
+        "name": "Ștefan cel Mare Boulevard",
+        "desc": "The main artery of the city, full of shops, restaurants, and historic buildings. Staying here offers easy access to public transport.",
+        "price": "Recommended"
+      },
+      {
+        "name": "National Theater Area",
+        "desc": "Proximity to the National Theater \"Mihai Eminescu\" offers a complete cultural experience. The area is quiet and elegant.",
+        "price": "Recommended"
+      },
+      {
+        "name": "Park Surroundings",
+        "desc": "Staying in the immediate vicinity of the park allows you to enjoy walks early in the morning or late in the evening when the park is less crowded.",
+        "price": "Recommended"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Scenic Views of Stephen the Great Central Park",
+    "captions": [
+      "Overview",
+      "Stephen the Great Statue",
+      "Park alleys",
+      "Alley of Classics",
+      "Cascade Fountain",
+      "Urban view",
+      "Winter snow",
+      "Shady alleys",
+      "Park paths",
+      "Monument details",
+      "Statues",
+      "Visitors",
+      "Morning mist",
+      "Benches",
+      "Greenery",
+      "Flower beds",
+      "Stairs",
+      "Panoramic view"
+    ],
+    "viewAll": "View on Google Maps",
+    "showAll": "View All Photos",
+    "showLess": "Show Less"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps.",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Ion P.",
+        "rating": 5,
+        "date": "2026-04-12",
+        "text": "A wonderful place in the heart of Chișinău. I always come here to relax and take walks. It is full of history and greenery."
+      },
+      {
+        "name": "Maria L.",
+        "rating": 5,
+        "date": "2026-03-28",
+        "text": "The park is very well maintained. The Alley of Classics is impressive, and the Stephen the Great statue is a constant presence in my photos."
+      },
+      {
+        "name": "Alexandru T.",
+        "rating": 4,
+        "date": "2026-05-01",
+        "text": "An excellent place for evening walks. It is well-lit and safe, and the atmosphere is very pleasant, especially in spring and summer."
+      },
+      {
+        "name": "Elena K.",
+        "rating": 5,
+        "date": "2026-02-15",
+        "text": "Being a history enthusiast, this park is my favorite place. The monuments and alleys have a story to tell. Highly recommended!"
+      },
+      {
+        "name": "Sergiu M.",
+        "rating": 5,
+        "date": "2025-10-22",
+        "text": "Perfect for family walks. Children can play safely, and adults can relax on shaded benches."
+      },
+      {
+        "name": "Victoria R.",
+        "rating": 5,
+        "date": "2025-08-09",
+        "text": "A tranquility refuge in the middle of the busy city. I come here to read a book or enjoy nature."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Map Location",
+    "subtitle": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Stephen the Great Central Park Info",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official & Partner Resources",
+    "officialLinks": {
+      "mcGov": "Ministry of Culture of Moldova",
+      "turismGov": "Tourism Agency of Moldova",
+      "airm": "Inspection and Restoration Agency of Monuments",
+      "chisinau": "Chișinău City Hall",
+      "proiecteChisinau": "Chișinău Projects"
+    },
+    "disclaimer": "This is an independent guide website dedicated to providing objective and accurate travel information."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "title": "Information Collection",
+        "content": "When you visit our website, we may automatically collect basic information about your device, browser, and browsing behavior to provide a better user experience. This information does not contain your personal identity."
+      },
+      {
+        "title": "Use of Cookies",
+        "content": "We use cookies to analyze website traffic and optimize page content. You can manage your preferences at any time through the Cookie Settings option at the bottom of our site."
+      },
+      {
+        "title": "Data Security and Protection",
+        "content": "We are committed to protecting the security of your privacy data and will not sell, rent, or trade your browsing data to any third-party commercial organizations."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "title": "Website Content and Use",
+        "content": "This website provides travel, transportation, and historical information about Stephen the Great Central Park. All content is for reference only. Actual opening hours and ticket information for attractions may change at any time, please refer to official announcements."
+      },
+      {
+        "title": "Intellectual Property",
+        "content": "The text, images, and layout designs on this website are protected by copyright. Without explicit written permission, no one may use the website content for commercial profit."
+      },
+      {
+        "title": "Disclaimer",
+        "content": "We do our best to ensure the accuracy and timeliness of the information, but we bear no legal responsibility for any travel delays or losses caused directly or indirectly by the use of the information provided on this website."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for basic website functionality and cannot be switched off.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "Help us understand visitor behavior and improve the website."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Used for cross-site tracking and personalized ad delivery."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Stephen the Great Central Park",
+    "text": "Grădina Publică „Ștefan cel Mare și Sfânt\" is the oldest and most iconic park in Chișinău, being a perfect example of combining city history with nature."
+  }
+}

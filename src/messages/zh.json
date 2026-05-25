@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "史蒂芬大帝中央公园",
+    "description": "基希讷乌史蒂芬大帝中央公园的完整旅游指南。了解这一美丽的摩尔多瓦景点、位置和游览信息。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "史蒂芬大帝中央公园",
+    "subtitle": "公园 · 基希讷乌",
+    "rating": "4.6",
+    "reviewCount": "14,548 条评价",
+    "type": "公园",
+    "openMaps": "在Google地图上查看位置"
+  },
+  "intro": {
+    "title": "探索史蒂芬大帝中央公园",
+    "description": "格里迪纳公园（Grădina Publică „Ștefan cel Mare și Sfânt”）是基希讷乌最古老的公园，建于1818年。它是摩尔多瓦首都中心标志性的休闲场所，深受当地人和游客的喜爱。漫步在绿树成荫的小径上，您将发现历史古迹、装饰性喷泉以及独特的宁静与绿意盎然的氛围。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "公园全年开放，入场免费。",
+        "非常适合悠闲散步、在树下阅读或放松。",
+        "提供欣赏史蒂芬大帝大道和历史建筑的绝佳视角。"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "亮点",
+      "items": [
+        "史蒂芬大帝雕像",
+        "经典作家大道 (Aleea Clasicilor)",
+        "层叠喷泉 (Fântâna cu Cascadă)",
+        "国家历史博物馆"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "关于史蒂芬大帝中央公园",
+    "sections": [
+      {
+        "id": "history",
+        "title": "历史背景",
+        "content": "该公园建于1818年，是基希讷乌最古老的公园。最初被称为「公共花园」，由德国建筑师约翰·F·W·梅因茨（Johann F. W. Meinz）设计。几个世纪以来，公园见证了许多历史事件，并经历了重大变革，但仍保留了其原始魅力。"
+      },
+      {
+        "id": "layout",
+        "title": "地理与布局",
+        "content": "公园位于市中心，坐落在史蒂芬大帝大道（Bulevardul Ștefan cel Mare și Sfânt）上。它分为多个区域，包括著名的「经典作家大道」，那里安置了约20座罗马尼亚著名作家和诗人的半身像。中心位置矗立着史蒂芬大帝雕像，是城市的象征。"
+      },
+      {
+        "id": "culture",
+        "title": "文化意义",
+        "content": "作为基希讷乌的「绿肺」，公园是当地人的首选聚会地点。这里经常举办文化活动、露天音乐会和展览。它是国家身份的象征，也是首都居民不可或缺的休憩场所。"
+      },
+      {
+        "id": "biodiversity",
+        "title": "生态与植物",
+        "content": "花园内种植了丰富的乔木和灌木物种，包括百年橡树、梧桐树、椴树和针叶树。绿色的景观为各种城市鸟类提供了栖息地，是自然爱好者的理想去处。"
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "基础信息",
+    "officialName": "正式名称",
+    "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
+    "type": "景点类型",
+    "typeValue": "公园",
+    "country": "国家",
+    "countryValue": "摩尔多瓦",
+    "city": "城市",
+    "cityValue": "基希讷乌",
+    "googleRating": "谷歌评分",
+    "googleRatingValue": "4.6 (14,548)",
+    "phone": "电话",
+    "phoneValue": "+37322201707",
+    "address": "地址",
+    "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "2RGH+65 Chișinău, Moldova"
+  },
+  "hours": {
+    "title": "开放时间",
+    "park": "景区开放",
+    "parkTime": "全年开放（24/7）",
+    "bestTime": "最佳游览时间",
+    "bestTimeSpring": "春季：百花齐放，天气宜人",
+    "bestTimeSummer": "夏季：树荫下避暑，适合散步",
+    "bestTimeAutumn": "秋季：色彩斑斓的秋叶，浪漫氛围",
+    "bestTimeWinter": "冬季：童话般的雪景",
+    "tip": "公园全天候开放。特殊活动可能会影响某些区域，请查看官方网站获取最新信息。"
+  },
+  "tickets": {
+    "title": "门票信息",
+    "park": "景区参观",
+    "parkPrice": "免费入场",
+    "parking": "停车",
+    "parkingPrice": "路边停车（市中心收费）",
+    "guided": "导游服务",
+    "guidedPrice": "自助游览"
+  },
+  "transport": {
+    "title": "交通指南",
+    "fromCenter": "从市中心",
+    "fromCenterDesc": "公园位于市中心，坐落在史蒂芬大帝大道上。",
+    "fromStation": "从火车站/汽车站",
+    "fromStationDesc": "可乘坐公共交通或出租车从城市任何地点到达。",
+    "fromAirport": "从基希讷乌国际机场",
+    "fromAirportDesc": "乘坐出租车或小巴到市中心，然后步行至公园。",
+    "publicTransport": "公共交通",
+    "publicTransportDesc": "众多公交车和无轨电车路线在公园附近设有站点。",
+    "walking": "步行",
+    "walkingDesc": "从基希讷乌任何中心区域均可轻松步行到达。",
+    "driving": "自驾",
+    "drivingDesc": "市中心停车位有限且收费。建议使用公共交通。"
+  },
+  "route": {
+    "title": "推荐游览路线",
+    "overview": "在公园历史悠久的小径上悠闲漫步。",
+    "steps": [
+      "从公园中心的史蒂芬大帝雕像开始",
+      "走过经典作家大道，欣赏诗人们的半身像",
+      "参观层叠喷泉和绿地",
+      "欣赏周围建筑的建筑风格",
+      "在长椅上放松，享受氛围"
+    ]
+  },
+  "photoSpots": {
+    "title": "绝佳拍照点",
+    "spots": [
+      {
+        "title": "史蒂芬大帝雕像",
+        "description": "基希讷乌城市的象征。与雕像合影是每个游客的必做之事。",
+        "location": "公园中心",
+        "image": "/gallery/stephen-the-great-central-park (2).jpg"
+      },
+      {
+        "title": "经典作家大道",
+        "description": "设有罗马尼亚作家半身像的大道。非常适合艺术和文化摄影。",
+        "location": "公园中部",
+        "image": "/gallery/stephen-the-great-central-park (4).jpg"
+      },
+      {
+        "title": "层叠喷泉",
+        "description": "一座美丽的装饰性喷泉，是夏季和秋季摄影的理想选择。",
+        "location": "公园内",
+        "image": "/gallery/stephen-the-great-central-park (5).jpg"
+      },
+      {
+        "title": "林荫小径",
+        "description": "宁静而绿意盎然的小径营造出童话般的氛围，非常适合人像摄影。",
+        "location": "整个公园",
+        "image": "/gallery/stephen-the-great-central-park (8).jpg"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "周边住宿指南",
+    "hotels": [
+      {
+        "name": "基希讷乌市中心",
+        "desc": "公园周边区域提供众多酒店和宾馆。适合想要身处行动中心并快速到达主要景点的游客。",
+        "price": "推荐区域"
+      },
+      {
+        "name": "史蒂芬大帝大道",
+        "desc": "城市的主要干道，遍布商店、餐厅和历史建筑。住在这里可以方便地使用公共交通。",
+        "price": "推荐区域"
+      },
+      {
+        "name": "国家剧院区域",
+        "desc": "靠近国家剧院「米哈伊·埃米内斯库」，提供完整的文化体验。该区域安静而优雅。",
+        "price": "推荐区域"
+      },
+      {
+        "name": "公园周边",
+        "desc": "住在公园的紧邻周边可以让您在清晨或傍晚人少时享受散步，那时公园不那么拥挤。",
+        "price": "推荐区域"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "照片画廊",
+    "subtitle": "史蒂芬大帝中央公园美景",
+    "captions": [
+      "全景概览",
+      "史蒂芬大帝雕像",
+      "公园小径",
+      "经典作家大道",
+      "层叠喷泉",
+      "城市景观",
+      "冬日雪景",
+      "林荫小径",
+      "公园道路",
+      "纪念碑细节",
+      "雕像",
+      "游人",
+      "晨雾",
+      "长椅",
+      "绿地",
+      "花坛",
+      "阶梯",
+      "俯瞰全景"
+    ],
+    "viewAll": "在Google地图上查看位置",
+    "showAll": "显示完整照片",
+    "showLess": "收起照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可通过Google地图查看。",
+    "moreReviews": "在Google地图上查看更多评价",
+    "items": [
+      {
+        "name": "Ion P.",
+        "rating": 5,
+        "date": "2026-04-12",
+        "text": "基希讷乌市中心一个美妙的地方。我总是来这里放松和散步。这里充满了历史和绿意。"
+      },
+      {
+        "name": "Maria L.",
+        "rating": 5,
+        "date": "2026-03-28",
+        "text": "公园维护得非常好。经典作家大道令人印象深刻，史蒂芬大帝雕像是我照片中不可或缺的一部分。"
+      },
+      {
+        "name": "Alexandru T.",
+        "rating": 4,
+        "date": "2026-05-01",
+        "text": "晚间散步的绝佳场所。照明良好且安全，氛围非常宜人，尤其是春夏季节。"
+      },
+      {
+        "name": "Elena K.",
+        "rating": 5,
+        "date": "2026-02-15",
+        "text": "作为一个历史爱好者，这个公园是我最喜欢的地方。纪念碑和小径都有故事可讲。强烈推荐！"
+      },
+      {
+        "name": "Sergiu M.",
+        "rating": 5,
+        "date": "2025-10-22",
+        "text": "非常适合家庭散步。孩子们可以安全玩耍，成年人可以在阴凉的长椅上放松。"
+      },
+      {
+        "name": "Victoria R.",
+        "rating": 5,
+        "date": "2025-08-09",
+        "text": "繁忙城市中心的宁静避难所。我来这里读书或享受大自然。"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "地图位置",
+    "subtitle": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "openMaps": "在Google地图上查看位置"
+  },
+  "footer": {
+    "rights": "© 2026 史蒂芬大帝中央公园信息",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "官方与合作资源",
+    "officialLinks": {
+      "mcGov": "摩尔多瓦共和国文化部",
+      "turismGov": "摩尔多瓦国家旅游",
+      "airm": "摩尔多瓦古迹检查",
+      "chisinau": "基希讷乌市政厅",
+      "proiecteChisinau": "基希讷乌市政项目与旅游"
+    },
+    "disclaimer": "本网站是独立的旅游指南网站，旨在提供客观、准确的旅行信息。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "title": "信息收集",
+        "content": "当您访问我们的网站时，我们可能会自动收集有关您设备、浏览器和浏览行为的基本信息，以便为您提供更好的用户体验。这些信息不包含您的身份特征。"
+      },
+      {
+        "title": "Cookie 的使用",
+        "content": "我们使用 Cookie 来分析网站流量并优化页面内容。您可以通过本站底部的 Cookie 设置选项来随时管理您的偏好。"
+      },
+      {
+        "title": "数据安全与保护",
+        "content": "我们致力于保护您的隐私数据安全，不会将您的浏览数据出售、出租或交易给任何第三方商业机构。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年5月",
+    "sections": [
+      {
+        "title": "网站内容与使用",
+        "content": "本网站提供有关史蒂芬大帝中央公园的旅游、交通及历史信息。所有内容仅供参考，景点的实际开放时间和票务信息可能随时更改，请以官方发布为准。"
+      },
+      {
+        "title": "知识产权说明",
+        "content": "本网站上的文本、图像和排版设计受版权保护。未经明确的书面许可，任何人不得将网站内容用于商业盈利用途。"
+      },
+      {
+        "title": "免责声明",
+        "content": "我们尽最大努力确保信息的准确性与时效性，但对于因使用本网站提供的信息而直接或间接造成的任何行程延误或损失，本站不承担法律责任。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "管理您的Cookie偏好。",
+    "essential": {
+      "title": "必要的Cookie",
+      "description": "基本网站功能所需，无法关闭。",
+      "badge": "始终启用"
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "帮助我们了解访客行为并改进网站。"
+    },
+    "marketing": {
+      "title": "营销",
+      "description": "用于跨网站跟踪和个性化广告展示。"
+    },
+    "save": "保存设置",
+    "saved": "设置已保存！"
+  },
+  "officialManagement": {
+    "title": "关于史蒂芬大帝中央公园",
+    "text": "格里迪纳公园（Grădina Publică „Ștefan cel Mare și Sfânt”）是基希讷乌最古老、最具标志性的公园，是城市历史与自然完美结合的典范。"
+  }
+}
