@@ -20,7 +20,8 @@ export async function generateMetadata({
   const zhUrl = `${baseUrl}/zh`;
   const enUrl = `${baseUrl}/en`;
   const roUrl = `${baseUrl}/ro`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : enUrl;
+  const esUrl = `${baseUrl}/es`;
+  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : locale === 'es' ? esUrl : enUrl;
 
   return {
     title: messages.meta.title,
@@ -31,6 +32,7 @@ export async function generateMetadata({
         'zh': zhUrl,
         'en': enUrl,
         'ro': roUrl,
+        'es': esUrl,
         'x-default': zhUrl,
       },
     },

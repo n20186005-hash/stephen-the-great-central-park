@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "title": "Parque Central Esteban el Grande",
+    "description": "Guía completa del Parque Central Esteban el Grande en Chisináu. Descubra esta atracción, ubicación, información de visita y consejos de viaje."
+  },
+  "header": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Parque Central Esteban el Grande",
+    "subtitle": "Parque · Chisináu",
+    "rating": "4.6",
+    "reviewCount": "14,548 reseñas",
+    "type": "Parque",
+    "openMaps": "Ver en Google Maps",
+    "mapsLink": "https://maps.app.goo.gl/8LzxATcmZkTe2biT7"
+  },
+  "intro": {
+    "title": "Descubra el Parque Central Esteban el Grande",
+    "description": "El Grădina Publică „Ștefan cel Mare și Sfânt” es el parque más antiguo de Chisináu, establecido en 1818. Es un lugar icónico de relajación en el corazón de la capital de Moldavia, frecuentado tanto por lugareños como por turistas. Caminando por sus sombreados callejones, descubrirá monumentos históricos, fuentes decorativas y una atmósfera única de tranquilidad y verdor.",
+    "visitGuide": {
+      "title": "Consejos de visita",
+      "items": [
+        "El parque es accesible todo el año y la entrada es gratuita.",
+        "Un gran lugar para pasear, leer bajo los árboles o relajarse.",
+        "Ofrece excelentes vistas del Bulevar Ștefan cel Mare y edificios históricos."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Puntos destacados",
+      "items": [
+        "Estatua de Esteban el Grande",
+        "Callejón de los Clásicos",
+        "Fuente en Cascada",
+        "Museo Nacional de Historia"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "Acerca del Parque Central Esteban el Grande",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Antecedentes históricos",
+        "content": "El parque se estableció en 1818 como el parque más antiguo de Chisináu. Originalmente llamado \"Jardín Público\", fue diseñado por el arquitecto alemán Johann F. W. Meinz. A lo largo de los siglos, el parque ha sido testigo de muchos eventos históricos y ha experimentado transformaciones significativas mientras conserva su encanto original."
+      },
+      {
+        "id": "layout",
+        "title": "Geografía y diseño",
+        "content": "El parque está ubicado en el centro de la ciudad en el Bulevar Ștefan cel Mare și Sfânt. Está dividido en varias áreas, incluyendo el famoso \"Callejón de los Clásicos\", donde se encuentran aproximadamente 20 bustos de célebres escritores y poetas rumanos. En el centro se alza la estatua de Esteban el Grande, símbolo de la ciudad."
+      },
+      {
+        "id": "culture",
+        "title": "Significado cultural",
+        "content": "Como el \"pulmón verde\" de Chisináu, el parque es el lugar de encuentro preferido por los lugareños. Con frecuencia se organizan eventos culturales, conciertos al aire libre y exposiciones. Es un símbolo de identidad nacional y un lugar de descanso indispensable para los residentes de la capital."
+      },
+      {
+        "id": "biodiversity",
+        "title": "Ecología y flora",
+        "content": "El jardín alberga una amplia variedad de especies de árboles y arbustos, incluyendo robles centenarios, plátanos, tilos y coníferas. El paisaje verde proporciona un refugio para diversas especies de aves urbanas, por lo que es ideal para los amantes de la naturaleza."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Información Básica",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Grădina Publică „Ștefan cel Mare și Sfânt”",
+    "type": "Tipo de Atracción",
+    "typeValue": "Parque",
+    "established": "Establecido",
+    "establishedValue": "1818",
+    "area": "Área",
+    "areaValue": "7 hectáreas (17 acres)",
+    "country": "País",
+    "countryValue": "Moldavia",
+    "city": "Ciudad",
+    "cityValue": "Chisináu",
+    "googleRating": "Calificación en Google",
+    "googleRatingValue": "4.6 (14,548)",
+    "address": "Dirección",
+    "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "2RGH+65 Chișinău, Moldova"
+  },
+  "hours": {
+    "title": "Horario de Visita",
+    "park": "Acceso al parque",
+    "parkTime": "Abierto todo el año (24/7)",
+    "fountain": "Fuente e iluminación",
+    "fountainTime": "Verano 09:00 - 22:00",
+    "fountainNote": "La iluminación nocturna se apaga a las 23:00",
+    "bestTime": "Mejor época para visitar",
+    "bestTimeSpring": "Primavera: Flores floreciendo y clima agradable",
+    "bestTimeSummer": "Verano: Sombra bajo los árboles, ideal para pasear",
+    "bestTimeAutumn": "Otoño: Hojas coloridas y atmósfera romántica",
+    "bestTimeWinter": "Invierno: Paisajes nevados de cuento de hadas",
+    "tip": "El parque es accesible 24/7. Eventos especiales pueden afectar ciertas áreas, por favor revise los últimos anuncios del gobierno para obtener actualizaciones."
+  },
+  "tickets": {
+    "title": "Información de Entrada",
+    "park": "Visita al Parque",
+    "parkPrice": "Entrada gratuita",
+    "parking": "Estacionamiento",
+    "parkingPrice": "Estacionamiento en la calle (pago en el centro)",
+    "guided": "Visitas Guiadas",
+    "guidedPrice": "Autoguiado",
+    "facilities": "Instalaciones",
+    "facilitiesDesc": "El parque infantil, los bancos públicos y los puntos de acceso Wi-Fi son de uso gratuito."
+  },
+  "transport": {
+    "title": "Cómo Llegar",
+    "fromCenter": "Desde el centro de la ciudad",
+    "fromCenterDesc": "El parque está ubicado en el centro de la ciudad en el Bulevar Ștefan cel Mare.",
+    "fromStation": "Desde la estación de tren/autobús",
+    "fromStationDesc": "Accesible en transporte público o taxi desde cualquier punto de la ciudad.",
+    "fromAirport": "Desde el Aeropuerto Internacional de Chisináu",
+    "fromAirportDesc": "Tome un taxi o minibús hasta el centro, luego camine hasta el parque.",
+    "publicTransport": "Transporte Público",
+    "publicTransportDesc": "Numerosas rutas de autobús y trolebús tienen paradas cerca del parque.",
+    "walking": "Caminando",
+    "walkingDesc": "Accesible a pie desde cualquier área central de Chisináu.",
+    "driving": "Conduciendo",
+    "drivingDesc": "El estacionamiento en el centro es limitado y de pago. Se recomienda el transporte público."
+  },
+  "route": {
+    "title": "Ruta Recomendada",
+    "overview": "Dé un paseo tranquilo por los callejones históricos del parque.",
+    "steps": [
+      "Comience en la estatua de Esteban el Grande en el centro del parque",
+      "Camine por el Callejón de los Clásicos y admire los bustos de los escritores",
+      "Visite la Fuente en Cascada y las áreas verdes",
+      "Admire la arquitectura de los edificios circundantes",
+      "Relájese en un banco y disfrute del ambiente"
+    ]
+  },
+  "photoSpots": {
+    "title": "Mejores Lugares para Fotos",
+    "spots": [
+      {
+        "title": "Estatua de Esteban el Grande",
+        "description": "El símbolo de la ciudad de Chisináu. Una foto junto a la estatua es imprescindible para cualquier visitante.",
+        "location": "Centro del parque",
+        "image": "/gallery/stephen-the-great-central-park (2).jpg"
+      },
+      {
+        "title": "Callejón de los Clásicos",
+        "description": "Callejón con bustos de escritores rumanos. Perfecto para la fotografía artística y cultural.",
+        "location": "Parte central del parque",
+        "image": "/gallery/stephen-the-great-central-park (4).jpg"
+      },
+      {
+        "title": "Fuente en Cascada",
+        "description": "Una hermosa fuente decorativa, ideal para fotografías de verano y otoño.",
+        "location": "En el parque",
+        "image": "/gallery/stephen-the-great-central-park (5).jpg"
+      },
+      {
+        "title": "Callejones sombreados",
+        "description": "Los callejones tranquilos y sombreados ofrecen una atmósfera de cuento de hadas, perfectos para retratos.",
+        "location": "Por todo el parque",
+        "image": "/gallery/stephen-the-great-central-park (8).jpg"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "Guía de Alojamiento",
+    "hotels": [
+      {
+        "name": "Centro de Chisináu",
+        "desc": "El área alrededor del parque ofrece numerosos hoteles y casas de huéspedes. Ideal para turistas que desean estar en el centro de la acción y tener acceso rápido a las principales atracciones.",
+        "price": "Recomendado"
+      },
+      {
+        "name": "Bulevar Ștefan cel Mare",
+        "desc": "La arteria principal de la ciudad, llena de tiendas, restaurantes y edificios históricos. Alojarte aquí ofrece fácil acceso al transporte público.",
+        "price": "Recomendado"
+      },
+      {
+        "name": "Zona del Teatro Nacional",
+        "desc": "La proximidad al Teatro Nacional \"Mihai Eminescu\" ofrece una experiencia cultural completa. El área es tranquila y elegante.",
+        "price": "Recomendado"
+      },
+      {
+        "name": "Alrededores del Parque",
+        "desc": "Alojarse en las inmediaciones del parque le permite disfrutar de paseos temprano en la mañana o tarde en la noche cuando el parque está menos concurrido.",
+        "price": "Recomendado"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galería de Fotos",
+    "subtitle": "Vistas panorámicas del Parque Central Esteban el Grande",
+    "captions": [
+      "Vista general",
+      "Estatua de Esteban el Grande",
+      "Callejones del parque",
+      "Callejón de los Clásicos",
+      "Fuente en Cascada",
+      "Vista urbana",
+      "Nieve de invierno",
+      "Callejones sombreados",
+      "Caminos del parque",
+      "Detalles de monumentos",
+      "Estatuas",
+      "Visitantes",
+      "Niebla matutina",
+      "Bancos",
+      "Verdor",
+      "Macizos de flores",
+      "Escaleras",
+      "Vista panorámica"
+    ],
+    "viewAll": "Ver en Google Maps",
+    "showAll": "Ver todas las fotos",
+    "showLess": "Mostrar menos"
+  },
+  "reviews": {
+    "title": "Reseñas de Visitantes",
+    "declaration": "Los comentarios de los visitantes se pueden ver a través de Google Maps.",
+    "moreReviews": "Ver más reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Ion P.",
+        "rating": 5,
+        "date": "2026-04-12",
+        "text": "Un lugar maravilloso en el corazón de Chisináu. Siempre vengo aquí a relajarme y dar paseos. Está lleno de historia y verdor."
+      },
+      {
+        "name": "Maria L.",
+        "rating": 5,
+        "date": "2026-03-28",
+        "text": "El parque está muy bien mantenido. El Callejón de los Clásicos es impresionante, y la estatua de Esteban el Grande es una presencia constante en mis fotos."
+      },
+      {
+        "name": "Alexandru T.",
+        "rating": 4,
+        "date": "2026-05-01",
+        "text": "Un excelente lugar para paseos nocturnos. Está bien iluminado y es seguro, y la atmósfera es muy agradable, especialmente en primavera y verano."
+      },
+      {
+        "name": "Elena K.",
+        "rating": 5,
+        "date": "2026-02-15",
+        "text": "Siendo un entusiasta de la historia, este parque es mi lugar favorito. Los monumentos y callejones tienen una historia que contar. ¡Muy recomendado!"
+      },
+      {
+        "name": "Sergiu M.",
+        "rating": 5,
+        "date": "2025-10-22",
+        "text": "Perfecto para paseos familiares. Los niños pueden jugar con seguridad, y los adultos pueden relajarse en bancos a la sombra."
+      },
+      {
+        "name": "Victoria R.",
+        "rating": 5,
+        "date": "2025-08-09",
+        "text": "Un refugio de tranquilidad en medio de la ajetreada ciudad. Vengo aquí a leer un libro o disfrutar de la naturaleza."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación en el Mapa",
+    "subtitle": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "title": "Parque Central Esteban el Grande",
+    "subtitle": "Parque · Chisináu",
+    "rights": "© 2026 Asociación de Investigación Turística Independiente del Parque Central Esteban el Grande · Todos los Derechos Reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos e Información Relacionados",
+    "officialLinks": {
+      "mcGov": "Ministerio de Cultura de Moldavia",
+      "turismGov": "Agencia de Turismo de Moldavia",
+      "airm": "Agencia de Inspección y Restauración de Monumentos",
+      "chisinau": "Ayuntamiento de Chisináu",
+      "proiecteChisinau": "Proyectos de Chisináu"
+    },
+    "disclaimer": "Este sitio web es un proyecto de información de viaje de terceros independiente. No estamos afiliados con el gobierno local ni con ninguna otra institución oficial."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: mayo de 2026",
+    "sections": [
+      {
+        "title": "Recopilación de información",
+        "content": "Cuando visita nuestro sitio web, podemos recopilar automáticamente información básica sobre su dispositivo, navegador y comportamiento de navegación para proporcionar una mejor experiencia de usuario. Esta información no contiene su identidad personal."
+      },
+      {
+        "title": "Uso de Cookies",
+        "content": "Utilizamos cookies para analizar el tráfico del sitio web y optimizar el contenido de la página. Puede administrar sus preferencias en cualquier momento a través de la opción de Configuración de Cookies en la parte inferior de nuestro sitio."
+      },
+      {
+        "title": "Seguridad y Protección de Datos",
+        "content": "Estamos comprometidos a proteger la seguridad de sus datos de privacidad y no venderemos, alquilaremos ni intercambiaremos sus datos de navegación con ninguna organización comercial de terceros."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: mayo de 2026",
+    "sections": [
+      {
+        "title": "Contenido y uso del sitio web",
+        "content": "Este sitio web proporciona información sobre viajes, transporte e historia sobre el Parque Central Esteban el Grande. Todo el contenido es solo para referencia. Los horarios de apertura reales y la información de boletos para las atracciones pueden cambiar en cualquier momento, consulte los anuncios oficiales."
+      },
+      {
+        "title": "Propiedad Intelectual",
+        "content": "El texto, las imágenes y los diseños de este sitio web están protegidos por derechos de autor. Sin un permiso explícito por escrito, nadie puede usar el contenido del sitio web con fines comerciales."
+      },
+      {
+        "title": "Descargo de Responsabilidad",
+        "content": "Hacemos todo lo posible para garantizar la precisión y puntualidad de la información, pero no asumimos ninguna responsabilidad legal por cualquier retraso o pérdida de viaje causado directa o indirectamente por el uso de la información proporcionada en este sitio web."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Administre sus preferencias de cookies.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Requeridas para la funcionalidad básica del sitio web y no se pueden desactivar.",
+      "badge": "Siempre activas"
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Nos ayudan a comprender el comportamiento de los visitantes y mejorar el sitio web."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Utilizadas para el seguimiento entre sitios y la entrega de anuncios personalizados."
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Preferencias guardadas!"
+  },
+  "officialManagement": {
+    "title": "Acerca del Parque Central Esteban el Grande",
+    "text": "El Grădina Publică „Ștefan cel Mare și Sfânt” es el parque más antiguo e icónico de Chisináu, siendo un ejemplo perfecto de combinación de historia de la ciudad con la naturaleza. El área está coadministrada por el Ayuntamiento de Chisináu y los departamentos locales de protección ambiental para la conservación ecológica y el manejo diario."
+  }
+}

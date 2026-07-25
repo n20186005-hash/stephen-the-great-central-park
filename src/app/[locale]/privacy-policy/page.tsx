@@ -12,7 +12,8 @@ export async function generateMetadata({
   const zhUrl = `${baseUrl}/zh/privacy-policy`;
   const enUrl = `${baseUrl}/en/privacy-policy`;
   const roUrl = `${baseUrl}/ro/privacy-policy`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : enUrl;
+  const esUrl = `${baseUrl}/es/privacy-policy`;
+  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : locale === 'es' ? esUrl : enUrl;
 
   return {
     alternates: {
@@ -21,6 +22,7 @@ export async function generateMetadata({
         'zh': zhUrl,
         'en': enUrl,
         'ro': roUrl,
+        'es': esUrl,
         'x-default': zhUrl,
       },
     },

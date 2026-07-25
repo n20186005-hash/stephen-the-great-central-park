@@ -8,6 +8,7 @@ const labels: Record<string, string> = {
   zh: '中文',
   en: 'English',
   ro: 'Română',
+  es: 'Español',
 };
 
 export default function LanguageToggle() {
