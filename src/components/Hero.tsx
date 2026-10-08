@@ -54,6 +54,10 @@ export default function Hero() {
               <span className="text-white text-sm">{t('openMaps')}</span>
             </a>
           </div>
+
+          {t('updated') && (
+            <p className="text-white/60 text-xs">{t('updated')}</p>
+          )}
         </div>
       </div>
 

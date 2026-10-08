@@ -13,6 +13,8 @@ import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
+import MoreGuides from '@/components/MoreGuides';
+import HomeStructuredData from '@/components/HomeStructuredData';
 
 export default async function HomePage({
   params,
@@ -24,6 +26,7 @@ export default async function HomePage({
 
   return (
     <>
+      <HomeStructuredData locale={locale} />
       <Header />
       <main>
         <Hero />
@@ -38,6 +41,7 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <MapEmbed />
+        <MoreGuides />
       </main>
       <Footer />
     </>

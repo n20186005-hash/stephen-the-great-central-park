@@ -14,7 +14,8 @@
     "title": "Parque Central Esteban el Grande",
     "subtitle": "Parque · Chisináu",
     "rating": "4.6",
-    "reviewCount": "14,548 reseñas",
+    "reviewCount": "14,891 reseñas",
+    "updated": "Datos verificados octubre 2026",
     "type": "Parque",
     "openMaps": "Ver en Google Maps",
     "mapsLink": "https://maps.app.goo.gl/8LzxATcmZkTe2biT7"
@@ -36,7 +37,7 @@
         "Estatua de Esteban el Grande",
         "Callejón de los Clásicos",
         "Fuente en Cascada",
-        "Museo Nacional de Historia"
+        "Teatro de Verano"
       ]
     }
   },
@@ -51,7 +52,7 @@
       {
         "id": "layout",
         "title": "Geografía y diseño",
-        "content": "El parque está ubicado en el centro de la ciudad en el Bulevar Ștefan cel Mare și Sfânt. Está dividido en varias áreas, incluyendo el famoso \"Callejón de los Clásicos\", donde se encuentran aproximadamente 20 bustos de célebres escritores y poetas rumanos. En el centro se alza la estatua de Esteban el Grande, símbolo de la ciudad."
+        "content": "El parque está ubicado en el centro de la ciudad en el Bulevar Ștefan cel Mare și Sfânt. Está dividido en varias áreas, incluyendo el famoso \"Callejón de los Clásicos\", donde se encuentran 29 bustos de célebres escritores y poetas rumanos. En el centro se alza la estatua de Esteban el Grande, símbolo de la ciudad."
       },
       {
         "id": "culture",
@@ -80,7 +81,7 @@
     "city": "Ciudad",
     "cityValue": "Chisináu",
     "googleRating": "Calificación en Google",
-    "googleRatingValue": "4.6 (14,548)",
+    "googleRatingValue": "4.6 (14,891)",
     "address": "Dirección",
     "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
     "plusCode": "Plus Code",
@@ -341,5 +342,79 @@
   "officialManagement": {
     "title": "Acerca del Parque Central Esteban el Grande",
     "text": "El Grădina Publică „Ștefan cel Mare și Sfânt” es el parque más antiguo e icónico de Chisináu, siendo un ejemplo perfecto de combinación de historia de la ciudad con la naturaleza. El área está coadministrada por el Ayuntamiento de Chisináu y los departamentos locales de protección ambiental para la conservación ecológica y el manejo diario."
+  },
+  "guides": {
+    "title": "Planifica tu visita a Chisináu",
+    "subtitle": "Guías prácticas sobre el parque y la ciudad que lo rodea."
+  },
+  "topics": {
+    "thingsToDo": {
+      "title": "Qué hacer en Chisináu",
+      "description": "Guía práctica de viaje por Chisináu: principales atracciones, parques, museos, catedrales, mercados y experiencias de vino en la capital de Moldavia.",
+      "intro": "Chisináu, la capital de Moldavia, es una ciudad compacta y caminable construida en torno a bulevares verdes y arquitectura de la época soviética. La mayoría de los visitantes se alojan en el centro, donde el Parque Central Esteban el Grande ocupa el corazón de la ciudad. Desde aquí se llega a pie o con un corto trayecto en trolebús a museos, catedrales, mercados y bares de vino.",
+      "sections": [
+        { "id": "parks", "title": "Parques y zonas verdes", "content": "Empieza por el Parque Central Esteban el Grande, el parque más antiguo y central de la ciudad. Otros favoritos incluyen Valea Morilor (un parque con lago al suroeste), el Dendrarium con su colección de árboles y el Parque La Izvor cerca del recinto ferial. Todos tienen entrada libre y son agradables para pasear." },
+        { "id": "museums", "title": "Museos e historia", "content": "El Museo Nacional de Historia de Moldavia está en la calle 31 August 1989, a pocos pasos del parque, y alberga arqueología, armas y la famosa exposición de la bodega 'Pommery'. También merecen una visita el Museo Nacional de Etnografía e Historia Natural y el Museo Pushkin." },
+        { "id": "cathedrals", "title": "Catedrales y monasterios", "content": "La Catedral de la Natividad y su campanario dominan la plaza central, mientras que los monasterios de Căpriana y Hîncu permiten excursiones de medio día fuera de la ciudad para los amantes del patrimonio ortodoxo." },
+        { "id": "markets", "title": "Mercados y comida", "content": "El Mercado Central (Piața Centrală) es el lugar para probar productos locales, plăcinte (empanadas), quesos y aguardiente. Complétalo con un paseo por el tramo peatonal del Bulevar Ștefan cel Mare, lleno de cafés y vida urbana." },
+        { "id": "wine", "title": "Experiencias de vino", "content": "Moldavia es uno de los grandes países vitivinícolas. Bodegas subterráneas como Cricova y Milestii Mici se visitan en tours guiados desde Chisináu, y muchos bares de vino de la ciudad sirven variedades autóctonas como Fetească Neagră y Rară Neagră." }
+      ],
+      "relatedTitle": "Más guías",
+      "related": [
+        { "title": "Parque Central Esteban el Grande — Mapa y entradas", "desc": "Entradas, rutas a pie y cómo llegar al parque.", "href": "/park-map" },
+        { "title": "Parques en Chisináu", "desc": "Compara los principales parques de la ciudad.", "href": "/parks-in-chisinau" },
+        { "title": "Historia del parque", "desc": "Cómo se creó el parque más antiguo de Chisináu.", "href": "/park-history" }
+      ]
+    },
+    "parks": {
+      "title": "Parques en Chisináu",
+      "description": "Compara los principales parques de Chisináu: ubicación, ambiente y para qué es mejor cada uno.",
+      "intro": "Chisináu es sorprendentemente verde. Además del Parque Central Esteban el Grande en el centro, la ciudad tiene parques junto al lago, colecciones botánicas y jardines tranquilos de barrio. Así se comparan los principales.",
+      "sections": [
+        { "id": "stefan", "title": "Parque Central Esteban el Grande", "content": "El parque más central e histórico, fundado en 1818. Ideal para un paseo corto, el Callejón de los Clásicos con 29 bustos de escritores y el monumento a Esteban el Grande. Llano, sombreado y a pasos de la catedral y los museos." },
+        { "id": "valea", "title": "Valea Morilor", "content": "Un gran parque junto al lago al suroeste, con paseo marítimo, fuentes y zona de playa. Ideal para caminatas largas, correr y picnics de fin de semana, lejos del centro." },
+        { "id": "dendrarium", "title": "Parque Dendrarium", "content": "Un parque botánico gestionado por la Academia de Ciencias, con árboles etiquetados y senderos tranquilos. Apto para amantes de la naturaleza y fotografía, con una pequeña entrada." },
+        { "id": "izvor", "title": "Parque La Izvor", "content": "Un parque moderno cerca del recinto ferial Moldexpo, con lago, parques infantiles y espacios abiertos. Bueno para familias y eventos." }
+      ],
+      "relatedTitle": "Planifica tu visita",
+      "related": [
+        { "title": "Qué hacer en Chisináu", "desc": "Una guía completa de atracciones de la ciudad.", "href": "/things-to-do-in-chisinau" },
+        { "title": "Parque Central Esteban el Grande — Mapa y entradas", "desc": "Cómo llegar al parque.", "href": "/park-map" }
+      ]
+    },
+    "parkHistory": {
+      "title": "Historia del Parque Central Esteban el Grande",
+      "description": "La historia del parque más antiguo de Chisináu: del Jardín Público de 1818 a la actual Callejón de los Clásicos.",
+      "intro": "El Grădina Publică „Ștefan cel Mare și Sfânt” es el parque más antiguo de Chisináu y un registro vivo de la cambiante identidad de la ciudad. Sus avenidas, monumentos y árboles se han moldeado a lo largo de más de dos siglos.",
+      "sections": [
+        { "id": "founding", "title": "El Jardín Público de 1818", "content": "El parque se trazó en 1818, poco después de que Chisináu se convirtiera en la capital de Besarabia, y se llamó originalmente 'Jardín Público' (Grădina Publică). Fue diseñado por el arquitecto alemán Johann F. W. Meinz como espacio verde formal para el nuevo centro administrativo." },
+        { "id": "alley", "title": "El Callejón de los Clásicos", "content": "La característica emblemática del parque es el Callejón de los Clásicos, una galería de escultura al aire libre con 29 bustos en honor a escritores, poetas y académicos rumanos. Se desarrolló a lo largo del siglo XX y sigue siendo un punto de encuentro favorito." },
+        { "id": "monument", "title": "El monumento a Esteban el Grande", "content": "En el centro se alza el monumento ecuestre a Esteban el Grande, el príncipe moldavo del siglo XV. Inaugurado en 1928, se convirtió en el corazón simbólico de la ciudad y en un punto de encuentro habitual." },
+        { "id": "modern", "title": "Un parque urbano moderno", "content": "Hoy el parque es co-gestionado por el Ayuntamiento de Chisináu y combina avenidas históricas con una fuente en cascada, un teatro de verano al aire libre y espacios para eventos, permaneciendo libre y abierto al público las 24 horas." }
+      ],
+      "relatedTitle": "Explora el parque",
+      "related": [
+        { "title": "Parque Central Esteban el Grande — Mapa y entradas", "desc": "Encuentra las entradas y rutas.", "href": "/park-map" },
+        { "title": "Qué hacer en Chisináu", "desc": "Ve el parque en el contexto de toda la ciudad.", "href": "/things-to-do-in-chisinau" }
+      ]
+    },
+    "parkMap": {
+      "title": "Parque Central Esteban el Grande — Mapa y entradas",
+      "description": "Dónde está el parque, cómo entrar, rutas a pie y transporte cercano en el centro de Chisináu.",
+      "intro": "El parque ocupa una manzana rectangular en el centro de Chisináu, limitada al norte por el Bulevar Ștefan cel Mare și Sfânt y por calles centrales adyacentes. Tiene varias entradas, por lo que puedes entrar desde casi cualquier lado.",
+      "sections": [
+        { "id": "location", "title": "Ubicación", "content": "El parque está en el Bulevar Ștefan cel Mare și Sfânt 148, justo enfrente de la Catedral de la Natividad y del eje peatonal principal de la ciudad. Sus coordenadas lo sitúan en el centro geográfico del circuito turístico de Chisináu." },
+        { "id": "entrances", "title": "Entradas", "content": "Las puertas principales dan al Bulevar Ștefan cel Mare, pero hay aberturas adicionales a calles adyacentes, lo que facilita entrar al parque tanto si llegas desde la catedral, el bulevar o las manzanas circundantes." },
+        { "id": "routes", "title": "Ruta sugerida a pie", "content": "Entra desde el bulevar, detente en el monumento a Esteban el Grande, continúa por el Callejón de los Clásicos para ver los 29 bustos, rodea la fuente en cascada y termina en el teatro de verano antes de salir hacia la plaza de la catedral." },
+        { "id": "nearby", "title": "Atracciones cercanas", "content": "Justo fuera del parque están la Catedral de la Natividad, el Museo Nacional de Historia de Moldavia y el Mercado Central. El Museo Nacional de Historia es una institución separada a pocos minutos a pie y no debe confundirse con el parque." },
+        { "id": "transport", "title": "Cómo llegar", "content": "El parque se alcanza a pie desde cualquier punto del centro. Numerosas líneas de troleibús y autobús paran en el Bulevar Ștefan cel Mare, y la estación de tren y autobús están a un corto trayecto en taxi o a pie." }
+      ],
+      "relatedTitle": "Guías relacionadas",
+      "related": [
+        { "title": "Historia del parque", "desc": "Cómo se creó y evolucionó.", "href": "/park-history" },
+        { "title": "Qué hacer en Chisináu", "desc": "Más que ver en la capital.", "href": "/things-to-do-in-chisinau" },
+        { "title": "Parques en Chisináu", "desc": "Compara los espacios verdes de la ciudad.", "href": "/parks-in-chisinau" }
+      ]
+    }
   }
 }

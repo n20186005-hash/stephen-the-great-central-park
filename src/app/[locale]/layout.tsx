@@ -1,8 +1,9 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
+import { buildAlternates, ogLocale } from '@/lib/seo';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -14,34 +15,22 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const messages = (await import(`@/messages/${locale}.json`)).default;
-  const baseUrl = 'https://stephenthegreatcentralpark.com';
-
-  const zhUrl = `${baseUrl}/zh`;
-  const enUrl = `${baseUrl}/en`;
-  const roUrl = `${baseUrl}/ro`;
-  const esUrl = `${baseUrl}/es`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : locale === 'es' ? esUrl : enUrl;
+  const t = await getTranslations({ locale, namespace: 'meta' });
+  const { canonical, languages } = buildAlternates('/', locale);
 
   return {
-    title: messages.meta.title,
-    description: messages.meta.description,
+    title: t('title'),
+    description: t('description'),
     alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'ro': roUrl,
-        'es': esUrl,
-        'x-default': zhUrl,
-      },
+      canonical,
+      languages,
     },
     openGraph: {
-      title: messages.meta.title,
-      description: messages.meta.description,
-      url: selfUrl,
-      siteName: "Stephen the Great Central Park",
-      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
+      title: t('title'),
+      description: t('description'),
+      url: canonical,
+      siteName: 'Stephen the Great Central Park',
+      locale: ogLocale(locale),
       type: 'website',
     },
   };
@@ -64,7 +53,10 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale === 'zh' ? 'zh-CN' : 'en'} suppressHydrationWarning>
+    <html
+      lang={locale === 'zh' ? 'zh-CN' : locale === 'ro' ? 'ro' : locale === 'es' ? 'es' : 'en'}
+      suppressHydrationWarning
+    >
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />

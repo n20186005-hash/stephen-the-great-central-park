@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Stephen the Great Central Park",
-    "description": "Ghid complet pentru Parcul Central Ștefan cel Mare și Sfânt din Chișinău. Aflați despre această atracție, locație, informații de vizitare și sfaturi de călătorie."
+    "title": "Grădina Publică Ștefan cel Mare – Chișinău | Ghid de vizitare",
+    "description": "Descoperă Grădina Publică Ștefan cel Mare din Chișinău: istorie, Aleea Clasicilor, fotografii, hartă, acces și sfaturi utile pentru vizitare."
   },
   "header": {
     "home": "Acasă",
@@ -11,10 +11,11 @@
     "backToHome": "Înapoi la Acasă"
   },
   "hero": {
-    "title": "Stephen the Great Central Park",
+    "title": "Grădina Publică „Ștefan cel Mare și Sfânt”",
     "subtitle": "Parc · Chișinău",
     "rating": "4.6",
-    "reviewCount": "14,548 recenzii",
+    "reviewCount": "14,891 recenzii",
+    "updated": "Date verificate octombrie 2026",
     "type": "Parc",
     "openMaps": "Vezi pe Google Maps"
   },
@@ -35,7 +36,7 @@
         "Statuia lui Ștefan cel Mare",
         "Aleea Clasicilor",
         "Fântâna cu Cascadă",
-        "Muzeul Național de Istorie"
+        "Teatrul de Vară"
       ]
     }
   },
@@ -50,7 +51,7 @@
       {
         "id": "layout",
         "title": "Geografie și Amenajare",
-        "content": "Parcul este situat în centrul orașului, pe Bulevardul Ștefan cel Mare și Sfânt. Acesta este împărțit în mai multe zone, inclusiv faimoasa „Aleea Clasicilor\" unde sunt plasați aproximativ 20 de busturi ale scriitorilor și poeților români celebri. În centru se află statuia lui Ștefan cel Mare, simbol al orașului."
+        "content": "Parcul este situat în centrul orașului, pe Bulevardul Ștefan cel Mare și Sfânt. Acesta este împărțit în mai multe zone, inclusiv faimoasa „Aleea Clasicilor\" unde sunt plasați 29 de busturi ale scriitorilor și poeților români celebri. În centru se află statuia lui Ștefan cel Mare, simbol al orașului."
       },
       {
         "id": "culture",
@@ -79,7 +80,7 @@
     "city": "Oraș",
     "cityValue": "Chișinău",
     "googleRating": "Rating Google",
-    "googleRatingValue": "4.6 (14,548)",
+    "googleRatingValue": "4.6 (14,891)",
     "address": "Adresă",
     "addressValue": "Stefan cel Mare si Sfant Boulevard 148, Chișinău, Moldova",
     "plusCode": "Plus Code",
@@ -340,5 +341,79 @@
   "officialManagement": {
     "title": "Despre Stephen the Great Central Park",
     "text": "Grădina Publică „Ștefan cel Mare și Sfânt\" este cel mai vechi și mai iconic parc din Chișinău, fiind o combinație perfectă între istoria orașului și natura urbană. Zona este administrată în comun de Primăria Municipiului Chișinău și de departamentele locale de protecție a mediului pentru conservarea ecologică și managementul zilnic."
+  },
+  "guides": {
+    "title": "Planifică vizita în Chișinău",
+    "subtitle": "Ghiduri practice despre parc și orașul din jurul său."
+  },
+  "topics": {
+    "thingsToDo": {
+      "title": "Obiective Turistice în Chișinău",
+      "description": "Ghid practic de călătorie în Chișinău: principalele atracții, parcuri, muzee, catedrale, piețe și experiențe cu vin în capitala Moldovei.",
+      "intro": "Chișinău, capitala Moldovei, este un oraș compact și prietenos cu pietonii, construit în jurul unor bulevarde verzi și unei arhitecturi de epocă sovietică. Cei mai mulți vizitatori se cazează în centru, acolo unde Grădina Publică Ștefan cel Mare ocupă inima orașului. De aici poți ajunge pe jos sau cu un scurt traseu de troleibuz la muzee, catedrale, piețe și baruri de vin.",
+      "sections": [
+        { "id": "parks", "title": "Parcuri și spații verzi", "content": "Începe cu Grădina Publică Ștefan cel Mare, cel mai vechi și mai central parc din oraș. Alte favorite includ Valea Morilor (un parc cu lac în sud-vest), Dendrariul cu colecția sa de arbori și Parcul La Izvor, lângă centrul expozițional. Toate au intrarea liberă și sunt plăcute pentru o plimbare." },
+        { "id": "museums", "title": "Muzee și istorie", "content": "Muzeul Național de Istorie a Moldovei se află pe strada 31 August 1989, la o scurtă plimbare de parc, și găzduiește arheologie, arme și celebra expoziție de la 'Pommery'. Merită vizitate și Muzeul Național de Etnografie și Istorie Naturală și Muzeul Pușkin." },
+        { "id": "cathedrals", "title": "Catedrale și mănăstiri", "content": "Catedrala Nașterea Domnului și clopotnița sa domină piața centrală, în timp ce mănăstirile Căpriana și Hîncu fac excursii ușoare de o jumătate de zi în afara orașului pentru iubitorii patrimoniului ortodox." },
+        { "id": "markets", "title": "Piețe și mâncare", "content": "Piața Centrală este locul unde poți gusta produse locale, plăcinte, brânzeturi și rachiu. Completează cu o plimbare pe porțiunea pietonală a Bulevardului Ștefan cel Mare, plină de cafenele și viață urbană." },
+        { "id": "wine", "title": "Experiențe cu vin", "content": "Moldova este una dintre marile țări ale vinului. Cramele subterane precum Cricova și Mileștii Mici pot fi vizitate în tururi ghidate din Chișinău, iar multe baruri de vin din oraș servesc soiuri autohtone precum Fetească Neagră și Rară Neagră." }
+      ],
+      "relatedTitle": "Mai multe ghiduri",
+      "related": [
+        { "title": "Grădina Publică Ștefan cel Mare — Hartă și intrări", "desc": "Intrări, trasee pietonale și cum ajungi la parc.", "href": "/park-map" },
+        { "title": "Parcuri în Chișinău", "desc": "Compară principalele parcuri ale orașului.", "href": "/parks-in-chisinau" },
+        { "title": "Istoria parcului", "desc": "Cum a fost creat cel mai vechi parc din Chișinău.", "href": "/park-history" }
+      ]
+    },
+    "parks": {
+      "title": "Parcuri în Chișinău",
+      "description": "Compară principalele parcuri din Chișinău — locație, atmosferă și pentru ce este cel mai potrivit fiecare.",
+      "intro": "Chișinău este surprinzător de verde. Dincolo de Grădina Publică Ștefan cel Mare din centru, orașul are parcuri cu lac, colecții botanice și grădini liniștite de cartier. Iată cum se compară cele principale.",
+      "sections": [
+        { "id": "stefan", "title": "Grădina Publică Ștefan cel Mare", "content": "Cel mai central și mai istoric parc, fondat în 1818. Ideal pentru o plimbare scurtă, Aleea Clasicilor cu 29 de busturi ale scriitorilor și monumentul lui Ștefan cel Mare. Plat, umbrit și la câțiva pași de catedrală și muzee." },
+        { "id": "valea", "title": "Valea Morilor", "content": "Un parc mare cu lac în sud-vest, cu promenadă, fântâni și o zonă de plajă. Ideal pentru plimbări lungi, alergat și picnicuri de weekend, departe de centru." },
+        { "id": "dendrarium", "title": "Parcul Dendrarium", "content": "Un parc botanic administrat de Academia de Științe, cu arbori etichetați și alei liniștite. Potrivit pentru iubitorii naturii și fotografie, cu un mic preț de intrare." },
+        { "id": "izvor", "title": "Parcul La Izvor", "content": "Un parc modern lângă centrul expozițional Moldexpo, cu lac, locuri de joacă și spații deschise. Bun pentru familii și evenimente." }
+      ],
+      "relatedTitle": "Planifică vizita",
+      "related": [
+        { "title": "Obiective Turistice în Chișinău", "desc": "Un ghid complet al atracțiilor orașului.", "href": "/things-to-do-in-chisinau" },
+        { "title": "Grădina Publică Ștefan cel Mare — Hartă și intrări", "desc": "Cum ajungi la parc.", "href": "/park-map" }
+      ]
+    },
+    "parkHistory": {
+      "title": "Istoria Grădinii Publice Ștefan cel Mare",
+      "description": "Povestea celui mai vechi parc din Chișinău: de la Grădina Publică din 1818 la Aleea Clasicilor de astăzi.",
+      "intro": "Grădina Publică „Ștefan cel Mare și Sfânt” este cel mai vechi parc din Chișinău și o dovadă vie a identității schimbătoare a orașului. Aleile, monumentele și arborii săi au fost modelați de-a lungul a peste două secole.",
+      "sections": [
+        { "id": "founding", "title": "Grădina Publică din 1818", "content": "Parcul a fost amenajat în 1818, la scurt timp după ce Chișinăul a devenit capitala Basarabiei, și se numea inițial 'Grădina Publică'. A fost proiectat de arhitectul german Johann F. W. Meinz ca spațiu verde formal pentru noul centru administrativ." },
+        { "id": "alley", "title": "Aleea Clasicilor", "content": "Trăsătura emblematică a parcului este Aleea Clasicilor, o galerie de sculptură în aer liber cu 29 de busturi care îi omagiază pe scriitorii, poeții și savanții români. A fost dezvoltată pe parcursul secolului XX și rămâne un loc favorit de întâlnire." },
+        { "id": "monument", "title": "Monumentul lui Ștefan cel Mare", "content": "În centru se află monumentul ecvestru al lui Ștefan cel Mare, domnitorul Moldovei din secolul al XV-lea. Dezvăluit în 1928, a devenit inima simbolică a orașului și un punct de întâlnire frecvent." },
+        { "id": "modern", "title": "Un parc urban modern", "content": "Astăzi, parcul este co-gestionat de Primăria Chișinău și îmbină aleile istorice cu o fântână cu cascadă, un teatru de vară în aer liber și spații pentru evenimente, rămânând liber și deschis publicului non-stop." }
+      ],
+      "relatedTitle": "Explorează parcul",
+      "related": [
+        { "title": "Grădina Publică Ștefan cel Mare — Hartă și intrări", "desc": "Găsește intrările și traseele.", "href": "/park-map" },
+        { "title": "Obiective Turistice în Chișinău", "desc": "Vezi parcul în contextul întregului oraș.", "href": "/things-to-do-in-chisinau" }
+      ]
+    },
+    "parkMap": {
+      "title": "Grădina Publică Ștefan cel Mare — Hartă și intrări",
+      "description": "Unde se află parcul, cum intri, trasee pietonale și transportul din apropiere în centrul Chișinăului.",
+      "intro": "Parcul ocupă un perimetru rectangular în centrul Chișinăului, mărginit la nord de Bulevardul Ștefan cel Mare și Sfânt și de străzile centrale adiacente. Are mai multe intrări, așa că poți pătrunde din aproape orice parte.",
+      "sections": [
+        { "id": "location", "title": "Locație", "content": "Parcul se află la Bulevardul Ștefan cel Mare și Sfânt 148, chiar vizavi de Catedrala Nașterea Domnului și de axa pietonală principală a orașului. Coordonatele îl plasează în centrul geografic al buclei turistice a Chișinăului." },
+        { "id": "entrances", "title": "Intrări", "content": "Porțile principale privesc Bulevardul Ștefan cel Mare, dar există și alte deschideri spre străzile adiacente, făcând parcul ușor de accesat fie că sosești de la catedrală, de pe bulevard sau din blocurile învecinate." },
+        { "id": "routes", "title": "Traseu sugerat", "content": "Intră de pe bulevard, oprește-te la monumentul lui Ștefan cel Mare, continuă pe Aleea Clasicilor pentru a vedea cele 29 de busturi, fă un ocol prin fântâna cu cascadă și termină la teatrul de vară înainte de a ieși spre piața catedralei." },
+        { "id": "nearby", "title": "Atracții din apropiere", "content": "Chiar în afara parcului se află Catedrala Nașterea Domnului, Muzeul Național de Istorie a Moldovei și Piața Centrală. Muzeul Național de Istorie este o instituție separată, la câteva minute de mers pe jos, și nu trebuie confundat cu parcul însuși." },
+        { "id": "transport", "title": "Cum ajungi", "content": "Parcul este accesibil pe jos din orice punct al centrului. Numeroase linii de troleibuz și autobuz opresc pe Bulevardul Ștefan cel Mare, iar gara și autogara sunt la o scurtă cursă cu taxiul sau la o plimbare." }
+      ],
+      "relatedTitle": "Ghiduri conexe",
+      "related": [
+        { "title": "Istoria parcului", "desc": "Cum a fost creat și cum a evoluat.", "href": "/park-history" },
+        { "title": "Obiective Turistice în Chișinău", "desc": "Mai multe de văzut în capitală.", "href": "/things-to-do-in-chisinau" },
+        { "title": "Parcuri în Chișinău", "desc": "Compară spațiile verzi ale orașului.", "href": "/parks-in-chisinau" }
+      ]
+    }
   }
 }
