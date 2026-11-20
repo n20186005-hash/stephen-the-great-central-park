@@ -1,9 +1,23 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Link } from '@/i18n/routing';
+import { Link, routing } from '@/i18n/routing';
 import { buildAlternates, BASE_URL, TOPIC_PATHS } from '@/lib/seo';
-import type { Locale } from '@/i18n/routing';
+import { hasLocale } from 'next-intl';
+import { notFound } from 'next/navigation';
+import { labels } from '@/lib/nearby/labels';
+import { findPlace, PARK_MAP } from '@/lib/nearby';
+import { PlaceLink, textLink } from './nearby/NearbyNavigation';
+import Header from './Header';
+import Footer from './Footer';
 
 type TopicKey = keyof typeof TOPIC_PATHS;
+type TopicPath = (typeof TOPIC_PATHS)[TopicKey];
+
+const topicPlaces: Record<TopicKey, string[]> = {
+  thingsToDo: ['triumphal-arch', 'city-hall', 'national-history-museum'],
+  parks: ['cathedral-square', 'valea-morilor', 'dendrarium', 'la-izvor'],
+  parkHistory: ['stephen-monument', 'alley-of-classics'],
+  parkMap: ['nativity-cathedral', 'national-history-museum'],
+};
 
 export default async function TopicPage({
   topicKey,
@@ -12,7 +26,9 @@ export default async function TopicPage({
   topicKey: TopicKey;
   locale: string;
 }) {
+  if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+  const labelsForLocale = labels[locale];
   const t = await getTranslations({ locale, namespace: 'topics' });
   const topic = t.raw(topicKey) as {
     title: string;
@@ -20,7 +36,7 @@ export default async function TopicPage({
     intro: string;
     sections: { id: string; title: string; content: string }[];
     relatedTitle: string;
-    related: { title: string; desc: string; href: string }[];
+    related: { title: string; desc: string; href: TopicPath }[];
   };
 
   const { canonical } = buildAlternates(TOPIC_PATHS[topicKey], locale);
@@ -33,7 +49,7 @@ export default async function TopicPage({
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Home',
+        name: labelsForLocale.home,
         item: homeUrl,
       },
       {
@@ -65,11 +81,12 @@ export default async function TopicPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(article) }}
       />
 
-      <section className="section-padding pt-28 sm:pt-32">
+      <Header solid />
+      <main className="section-padding pt-28 sm:pt-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <nav aria-label="Breadcrumb" className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
             <Link href="/" style={{ color: 'var(--accent)' }}>
-              Home
+              {labelsForLocale.home}
             </Link>
             <span className="mx-2">/</span>
             <span style={{ color: 'var(--text-secondary)' }}>{topic.title}</span>
@@ -85,6 +102,10 @@ export default async function TopicPage({
           <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>
             {topic.intro}
           </p>
+
+          {topicKey === 'parkMap' && (
+            <a href={PARK_MAP} className={`mb-8 inline-block ${textLink}`}>{labelsForLocale.showMap}</a>
+          )}
 
           <div className="space-y-10">
             {topic.sections.map((section) => (
@@ -108,10 +129,13 @@ export default async function TopicPage({
               {topic.relatedTitle}
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
+              <Link href="/nearby" className="block rounded-lg p-4 font-semibold text-[var(--accent)] hover:underline">
+                {labelsForLocale.all}
+              </Link>
               {topic.related.map((item) => (
                 <Link
                   key={item.href}
-                  href={item.href as any}
+                  href={item.href}
                   className="block rounded-lg p-4 transition-shadow hover:shadow-md"
                   style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}
                 >
@@ -125,8 +149,18 @@ export default async function TopicPage({
               ))}
             </div>
           </div>
+          <section className="mt-10">
+            <h2 className="mb-4 font-display text-xl font-semibold">{labelsForLocale.related}</h2>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {topicPlaces[topicKey].map((slug) => {
+                const place = findPlace(slug);
+                return place && <li key={slug}><PlaceLink place={place} locale={locale} /></li>;
+              })}
+            </ul>
+          </section>
         </div>
-      </section>
+      </main>
+      <Footer />
     </>
   );
 }

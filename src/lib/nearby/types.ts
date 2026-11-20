@@ -1,0 +1,26 @@
+import type { Locale } from '@/i18n/routing';
+
+export type Category = 'landmarks' | 'museums' | 'venues' | 'churches' | 'parks';
+export type Area = 'garden' | 'square' | 'boulevard' | 'museumQuarter' | 'oldTown' | 'west' | 'district';
+export type Access = 'outdoor' | 'exterior' | 'museum' | 'show' | 'worship' | 'garden';
+
+export interface PlaceCopy {
+  name: string;
+  history: string;
+  highlight: string;
+  photo: string;
+  visit: string;
+}
+
+export interface NearbyPlace {
+  slug: string;
+  mapName: string;
+  category: Category;
+  area: Area;
+  access: Access;
+  source: string;
+  operator?: string;
+  operatorUrl?: string;
+  image?: { path: string; credit: string; source: string };
+  copy: Record<Locale, PlaceCopy>;
+}

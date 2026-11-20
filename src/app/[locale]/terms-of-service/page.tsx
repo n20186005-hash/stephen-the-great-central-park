@@ -1,4 +1,5 @@
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { buildAlternates, ogLocale } from '@/lib/seo';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
 
@@ -8,24 +9,16 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://stephenthegreatcentralpark.com';
-  const zhUrl = `${baseUrl}/zh/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const roUrl = `${baseUrl}/ro/terms-of-service`;
-  const esUrl = `${baseUrl}/es/terms-of-service`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : locale === 'es' ? esUrl : enUrl;
+  const t = await getTranslations({ locale, namespace: 'terms' });
+  const title = t('title');
+  const description = t('metaDescription');
+  const alternates = buildAlternates('/terms-of-service', locale);
 
   return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'ro': roUrl,
-        'es': esUrl,
-        'x-default': zhUrl,
-      },
-    },
+    title,
+    description,
+    alternates,
+    openGraph: { title, description, url: alternates.canonical, locale: ogLocale(locale), type: 'website' },
   };
 }
 

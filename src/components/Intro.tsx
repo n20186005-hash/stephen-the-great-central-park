@@ -1,7 +1,11 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { hasLocale, useLocale, useTranslations, useMessages } from 'next-intl';
+import { routing } from '@/i18n/routing';
+import { labels } from '@/lib/nearby/labels';
 
 export default function Intro() {
   const t = useTranslations('intro');
+  const locale = useLocale();
+  const { source } = labels[hasLocale(routing.locales, locale) ? locale : routing.defaultLocale];
   const tOff = useTranslations('officialManagement');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
@@ -74,6 +78,12 @@ export default function Intro() {
           <div className="text-base leading-relaxed whitespace-pre-wrap" style={{ color: 'var(--text-secondary)' }}>
             {tOff('text')}
           </div>
+          <a
+            href="https://visit.chisinau.md/en/obiective_turistice/gradina-publica-stefan-cel-mare-si-sfant/"
+            className="mt-3 inline-block text-[var(--accent)] underline underline-offset-4"
+          >
+            {source}
+          </a>
         </div>
       </div>
     </section>

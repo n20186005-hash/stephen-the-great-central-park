@@ -2,12 +2,12 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { TOPIC_PATHS } from '@/lib/seo';
 
-const ORDER: { key: keyof typeof TOPIC_PATHS; path: string }[] = [
+const ORDER = [
   { key: 'thingsToDo', path: TOPIC_PATHS.thingsToDo },
   { key: 'parks', path: TOPIC_PATHS.parks },
   { key: 'parkHistory', path: TOPIC_PATHS.parkHistory },
   { key: 'parkMap', path: TOPIC_PATHS.parkMap },
-];
+] as const;
 
 export default async function MoreGuides() {
   const tg = await getTranslations('guides');
@@ -31,7 +31,7 @@ export default async function MoreGuides() {
             return (
               <Link
                 key={path}
-                href={path as any}
+                href={path}
                 className="block rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
                 style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
               >

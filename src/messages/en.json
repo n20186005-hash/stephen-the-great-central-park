@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Stephen the Great Central Park, Chișinău | Visitor Guide",
-    "description": "Explore Stephen the Great Central Park in Chișinău, Moldova. Discover its history, monuments, Alley of Classics, photos, map and practical visiting tips."
+    "description": "Find the boulevard entrance, Alley of Classics, historic monuments and photo stops at Stephen the Great Central Park, with maps and nearby places in Chișinău."
   },
   "header": {
     "home": "Home",
@@ -37,22 +37,22 @@
         "Stephen the Great Statue",
         "Alley of Classics",
         "Cascade Fountain",
-        "Summer Open-Air Theater"
+        "Historic cast-iron fence"
       ]
     }
   },
   "knowledge": {
-    "title": "About Stephen the Great Central Park",
+    "title": "About the Public Garden",
     "sections": [
       {
         "id": "history",
         "title": "Historical Background",
-        "content": "The park was established in 1818 as the oldest park in Chișinău. Originally called \"Public Garden\", it was designed by German architect Johann F. W. Meinz. Throughout the centuries, the park has witnessed many historical events and undergone significant transformations while preserving its original charm."
+        "content": "The city tourism guide dates the first layout to 1818. Later planting and landscaping shaped the paths of the public garden."
       },
       {
         "id": "layout",
         "title": "Geography & Layout",
-        "content": "The park is located in the city center on Ștefan cel Mare și Sfânt Boulevard. It is divided into several areas, including the famous \"Alley of Classics\" where 29 busts of celebrated Romanian writers and poets are placed. In the center stands the Stephen the Great statue, a symbol of the city."
+        "content": "The Alley of Classics brings together bronze portraits of writers and scholars. The Stephen the Great monument stands by the boulevard entrance."
       },
       {
         "id": "culture",
@@ -92,25 +92,26 @@
     "park": "Site Access",
     "parkTime": "Open year-round (24/7)",
     "fountain": "Fountain & Lighting",
-    "fountainTime": "Summer 09:00 - 22:00",
-    "fountainNote": "Night lighting turns off at 23:00",
-    "bestTime": "Best Time to Visit",
+    "fountainTime": "The fountain and lighting can operate seasonally",
+    "fountainNote": "Check on site for the latest arrangements.",
+    "seasonWarm": "Spring and summer",
+    "seasonCool": "Autumn and winter",
     "bestTimeSpring": "Spring: Flowers blooming and pleasant weather",
     "bestTimeSummer": "Summer: Shade under trees, ideal for walks",
     "bestTimeAutumn": "Autumn: Colorful leaves and romantic atmosphere",
     "bestTimeWinter": "Winter: Fairy-tale snow landscapes",
-    "tip": "The park is accessible 24/7. Special events may affect certain areas, please check the latest government announcements for updates."
+    "tip": "See local notices for temporary changes to entrances or paths."
   },
   "tickets": {
     "title": "Admission Information",
     "park": "Site Visit",
     "parkPrice": "Free admission",
     "parking": "Parking",
-    "parkingPrice": "Street parking (paid in city center)",
+    "parkingPrice": "Check signs for the parking rules on your chosen street.",
     "guided": "Guided Tours",
     "guidedPrice": "Self-guided",
     "facilities": "Park Facilities",
-    "facilitiesDesc": "Children's playground, public benches, and Wi-Fi spots are free to use"
+    "facilitiesDesc": "Park paths and public benches"
   },
   "transport": {
     "title": "How to Get Here",
@@ -129,9 +130,9 @@
   },
   "route": {
     "title": "Recommended Route",
-    "overview": "Take a leisurely stroll through the historic alleys of the park.",
+    "overview": "A walk through the historic alleys of the park.",
     "steps": [
-      "Start at the Stephen the Great Statue in the park center",
+      "Start at the Stephen the Great monument by the boulevard entrance",
       "Walk along the Alley of Classics and admire the writers' busts",
       "Visit the Cascade Fountain and green areas",
       "Admire the architecture of the surrounding buildings",
@@ -144,7 +145,7 @@
       {
         "title": "Stephen the Great Statue",
         "description": "The symbol of Chișinău city. A photo next to the statue is a must for any visitor.",
-        "location": "Park center",
+        "location": "Beside the boulevard entrance",
         "image": "/gallery/stephen-the-great-central-park (2).jpg"
       },
       {
@@ -285,6 +286,7 @@
     "disclaimer": "This website is an independent third-party travel information project. We are not affiliated with the local government or any other official institutions."
   },
   "privacy": {
+    "metaDescription": "Read how the Stephen the Great Central Park travel guide handles site data.",
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: May 2026",
     "sections": [
@@ -303,6 +305,7 @@
     ]
   },
   "terms": {
+    "metaDescription": "Read the terms of use for the Stephen the Great Central Park travel guide.",
     "title": "Terms of Service",
     "lastUpdated": "Last updated: May 2026",
     "sections": [
@@ -321,6 +324,7 @@
     ]
   },
   "cookieSettings": {
+    "metaDescription": "Review cookie settings for the Stephen the Great Central Park travel guide.",
     "title": "Cookie Settings",
     "description": "Manage your cookie preferences.",
     "essential": {
@@ -340,8 +344,8 @@
     "saved": "Preferences saved!"
   },
   "officialManagement": {
-    "title": "About Stephen the Great Central Park",
-    "text": "Grădina Publică „Ștefan cel Mare și Sfânt\" is the oldest and most iconic park in Chișinău, being a perfect example of combining city history with nature. The area is co-managed by the Chișinău City Hall and local environmental protection departments for ecological conservation and daily management."
+    "title": "About the Public Garden",
+    "text": "Grădina Publică „Ștefan cel Mare și Sfânt” is Chișinău’s historic municipal public garden. The city tourism guide documents its history, entrances and monuments."
   },
   "guides": {
     "title": "Plan your Chișinău visit",
@@ -353,8 +357,8 @@
       "description": "A practical Chișinău travel guide: top attractions, parks, museums, cathedrals, markets and wine experiences in Moldova's capital.",
       "intro": "Chișinău, the capital of Moldova, is a compact, walkable city built around green boulevards and Soviet-era architecture. Most visitors base themselves in the centre, where Stephen the Great Central Park sits at the heart of the city. From here you can reach museums, cathedrals, markets and wine bars on foot or by a short trolleybus ride.",
       "sections": [
-        { "id": "parks", "title": "Parks & green spaces", "content": "Start with Stephen the Great Central Park, the oldest and most central park in the city. Other favourites include Valea Morilor (a lakeside park in the south-west), the Dendrarium with its collection of trees, and Parcul La Izvor near the exhibition centre. All are free to enter and pleasant for a stroll." },
-        { "id": "museums", "title": "Museums & history", "content": "The National Museum of History of Moldova sits on 31 August 1989 Street, a short walk from the park, and holds archaeology, weapons and the famous 'Pommery' cellar exhibits. The National Museum of Ethnography and Natural History and the Pushkin Museum are also worth a visit." },
+        { "id": "parks", "title": "Parks & green spaces", "content": "Compare the lakeside paths at Valea Morilor with the tree collection at Dendrarium and the lakes at La Izvor. Check each place’s access arrangements separately." },
+        { "id": "museums", "title": "Museums & history", "content": "The National Museum of History is on 31 August 1989 Street. Compare its historical galleries with the collections at the National Museum of Ethnography and Natural History and the Pushkin House-Museum." },
         { "id": "cathedrals", "title": "Cathedrals & monasteries", "content": "The Nativity Cathedral and its belfry dominate the central square, while the nearby Căpriana and Hîncu monasteries make easy half-day trips outside the city for those interested in Orthodox heritage." },
         { "id": "markets", "title": "Markets & food", "content": "The Central Market (Piața Centrală) is the place to taste local produce, plăcinte (pastries), cheeses and brandy. Pair it with a walk along the pedestrianised stretch of Ștefan cel Mare Boulevard for cafés and people-watching." },
         { "id": "wine", "title": "Wine experiences", "content": "Moldova is one of the world's great wine countries. Underground cellars such as Cricova and Milestii Mici can be visited on guided tours from Chișinău, and many city wine bars pour indigenous varieties like Fetească Neagră and Rară Neagră." }
@@ -371,10 +375,10 @@
       "description": "Compare Chișinău's main parks — location, atmosphere and what each one is best for.",
       "intro": "Chișinău is surprisingly green. Beyond Stephen the Great Central Park in the centre, the city has lakeside parks, botanical collections and quiet neighbourhood gardens. Here is how the main ones compare.",
       "sections": [
-        { "id": "stefan", "title": "Stephen the Great Central Park", "content": "The most central and historic park, founded in 1818. Best for a quick walk, the Alley of Classics with 29 writers' busts, and the Stephen the Great monument. Flat, shaded and steps from the cathedral and museums." },
+        { "id": "stefan", "title": "Stephen the Great Central Park", "content": "The most central and historic park, founded in 1818. Best for a quick walk, the bronze busts of the Alley of Classics and the Stephen the Great monument. Flat, shaded and steps from the cathedral and museums." },
         { "id": "valea", "title": "Valea Morilor", "content": "A large lakeside park in the south-west with a promenade, fountains and a beach area. Best for longer walks, jogging and weekend picnics away from the centre." },
-        { "id": "dendrarium", "title": "Dendrarium Park", "content": "A botanical park managed by the Academy of Sciences with labelled trees and quiet alleys. Best for nature lovers and photography, with a small entry fee." },
-        { "id": "izvor", "title": "Parcul La Izvor", "content": "A modern park near the Moldexpo exhibition centre with a lake, playgrounds and open spaces. Good for families and events." }
+        { "id": "dendrarium", "title": "Dendrarium Park", "content": "Dendrarium in Buiucani is a park of tree and shrub collections. Check the park website for current entry arrangements." },
+        { "id": "izvor", "title": "Parcul La Izvor", "content": "La Izvor is a lakeside park in Buiucani. Check the map before choosing the best side to approach." }
       ],
       "relatedTitle": "Plan your visit",
       "related": [
@@ -387,10 +391,10 @@
       "description": "The story of Chișinău's oldest park: from the 1818 Public Garden to today's Alley of Classics.",
       "intro": "Grădina Publică „Ștefan cel Mare și Sfânt” is the oldest park in Chișinău and a living record of the city's changing identity. Its layout, monuments and trees have been shaped over more than two centuries.",
       "sections": [
-        { "id": "founding", "title": "The 1818 Public Garden", "content": "The park was laid out in 1818, shortly after Chișinău became the capital of Bessarabia, and was originally called the 'Public Garden' (Grădina Publică). It was designed by the German architect Johann F. W. Meinz as a formal green space for the new administrative centre." },
+        { "id": "founding", "title": "The 1818 Public Garden", "content": "The municipal tourism guide attributes the 1818 layout to Russian military engineers. It credits later paths to architect Bogdan Eitner and dates the surviving cast-iron enclosure to 1868–1869." },
         { "id": "alley", "title": "The Alley of Classics", "content": "The park's signature feature is the Alley of Classics (Aleea Clasicilor), an open-air sculpture gallery of 29 busts honouring Romanian writers, poets and scholars. It was developed through the 20th century and remains a favourite meeting point." },
-        { "id": "monument", "title": "The Stephen the Great monument", "content": "At the centre stands the equestrian monument to Stephen the Great (Ștefan cel Mare), the Moldavian prince who ruled in the 15th century. Unveiled in 1928, it has become the symbolic heart of the city and a common reference point for meetings." },
-        { "id": "modern", "title": "A modern urban park", "content": "Today the park is co-managed by the Chișinău municipality and blends historic avenues with a cascade fountain, a summer open-air theatre and event spaces, remaining free and open to the public around the clock." }
+        { "id": "monument", "title": "The Stephen the Great monument", "content": "At the boulevard entrance stands the monument to Stephen the Great, a work by Alexandru Plămădeală inaugurated in 1928." },
+        { "id": "modern", "title": "A modern urban park", "content": "The historic paths and cast-iron fence remain part of a public municipal garden. Check city notices for temporary access changes." }
       ],
       "relatedTitle": "Explore the park",
       "related": [
@@ -401,12 +405,12 @@
     "parkMap": {
       "title": "Stephen the Great Central Park — Map & Entrances",
       "description": "Where the park is, how to enter it, walking routes and nearby transport in central Chișinău.",
-      "intro": "The park occupies a rectangular block in the very centre of Chișinău, bordered by Ștefan cel Mare și Sfânt Boulevard to the north and adjacent central streets. It has several entrances, so you can step in from almost any side.",
+      "intro": "The public garden occupies a central block alongside Ștefan cel Mare și Sfânt Boulevard. Several paths lead to entrances on the surrounding streets.",
       "sections": [
         { "id": "location", "title": "Location", "content": "The park sits at Ștefan cel Mare și Sfânt Boulevard 148, directly across from the Nativity Cathedral and the main pedestrian axis of the city. Its coordinates place it at the geographic centre of Chișinău's sightseeing loop." },
         { "id": "entrances", "title": "Entrances", "content": "The main gates face Ștefan cel Mare Boulevard, but there are additional openings onto adjacent streets, making the park easy to enter whether you arrive from the cathedral, the boulevard or the surrounding blocks." },
-        { "id": "routes", "title": "Suggested walking route", "content": "Enter from the boulevard, pause at the Stephen the Great monument, continue along the Alley of Classics to see the 29 busts, circle the cascade fountain and finish at the summer open-air theatre before exiting toward the cathedral square." },
-        { "id": "nearby", "title": "Nearby attractions", "content": "Just outside the park you will find the Nativity Cathedral, the National Museum of History of Moldova and the Central Market. The National Museum of History is a separate institution a few minutes' walk away and should not be confused with the park itself." },
+        { "id": "routes", "title": "Suggested walking route", "content": "Start at the boulevard entrance near the Stephen the Great monument, continue along the Alley of Classics and circle the garden fountain. Use the marked crossings if continuing to Cathedral Park." },
+        { "id": "nearby", "title": "Nearby attractions", "content": "Cathedral Park and the Nativity Cathedral are across the boulevard. The National Museum of History is a separate destination on 31 August 1989 Street." },
         { "id": "transport", "title": "Getting there", "content": "The park is reachable on foot from anywhere in the centre. Numerous trolleybus and bus lines stop along Ștefan cel Mare Boulevard, and it is a short taxi or walk from the railway and bus stations." }
       ],
       "relatedTitle": "Related guides",

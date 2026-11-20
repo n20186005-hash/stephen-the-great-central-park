@@ -15,6 +15,10 @@ import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
 import MoreGuides from '@/components/MoreGuides';
 import HomeStructuredData from '@/components/HomeStructuredData';
+import NearbyNavigation from '@/components/nearby/NearbyNavigation';
+import { hasLocale } from 'next-intl';
+import { notFound } from 'next/navigation';
+import { routing } from '@/i18n/routing';
 
 export default async function HomePage({
   params,
@@ -22,6 +26,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
 
   return (
@@ -31,6 +36,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <NearbyNavigation locale={locale} compact />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />

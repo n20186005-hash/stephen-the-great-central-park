@@ -20,10 +20,6 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
             src="https://maps.google.com/maps?q=Stephen+the+Great+Central+Park+Chisinau&output=embed"
             width="100%"
@@ -32,7 +28,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Stephen the Great Central Park"
+            title={t('title')}
           />
         </div>
 

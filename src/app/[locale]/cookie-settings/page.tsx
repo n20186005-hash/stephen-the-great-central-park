@@ -1,4 +1,5 @@
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { buildAlternates, ogLocale } from '@/lib/seo';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
 
@@ -8,24 +9,16 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://stephenthegreatcentralpark.com';
-  const zhUrl = `${baseUrl}/zh/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
-  const roUrl = `${baseUrl}/ro/cookie-settings`;
-  const esUrl = `${baseUrl}/es/cookie-settings`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'ro' ? roUrl : locale === 'es' ? esUrl : enUrl;
+  const t = await getTranslations({ locale, namespace: 'cookieSettings' });
+  const title = t('title');
+  const description = t('metaDescription');
+  const alternates = buildAlternates('/cookie-settings', locale);
 
   return {
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'ro': roUrl,
-        'es': esUrl,
-        'x-default': zhUrl,
-      },
-    },
+    title,
+    description,
+    alternates,
+    openGraph: { title, description, url: alternates.canonical, locale: ogLocale(locale), type: 'website' },
   };
 }
 

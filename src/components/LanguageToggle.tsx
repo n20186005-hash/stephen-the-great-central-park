@@ -3,6 +3,7 @@
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname, routing, type Locale } from '@/i18n/routing';
 import { useState, useRef, useEffect } from 'react';
+import { useParams } from 'next/navigation';
 
 const labels: Record<string, string> = {
   zh: '中文',
@@ -15,6 +16,7 @@ export default function LanguageToggle() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const { slug } = useParams<{ slug?: string }>();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -33,8 +35,10 @@ export default function LanguageToggle() {
     
     if (next === locale) return;
 
-    // Use next-intl router to navigate with locale handling
-    // Use push instead of replace for more reliable navigation
+    if (pathname === '/nearby/[slug]') {
+      if (slug) router.push({ pathname, params: { slug } }, { locale: next });
+      return;
+    }
     router.push(pathname || '/', { locale: next });
   }
 
@@ -47,7 +51,9 @@ export default function LanguageToggle() {
           background: 'var(--tag-bg)',
           color: 'var(--tag-text)',
         }}
-        aria-label="Switch language"
+        aria-haspopup="true"
+        aria-expanded={open}
+        aria-label={labels[locale]}
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="10"/>

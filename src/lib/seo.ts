@@ -2,12 +2,12 @@ import { routing } from '@/i18n/routing';
 
 export const BASE_URL = 'https://www.stephenthegreatcentralpark.com';
 
-export const TOPIC_PATHS: Record<string, string> = {
+export const TOPIC_PATHS = {
   thingsToDo: '/things-to-do-in-chisinau',
   parks: '/parks-in-chisinau',
   parkHistory: '/park-history',
   parkMap: '/park-map',
-};
+} as const;
 
 const locales = routing.locales as readonly string[];
 
