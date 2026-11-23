@@ -21,6 +21,7 @@ export interface NearbyPlace {
   source: string;
   operator?: string;
   operatorUrl?: string;
+  coordinates?: { lat: number; lng: number };
   image?: { path: string; credit: string; source: string };
   copy: Record<Locale, PlaceCopy>;
 }

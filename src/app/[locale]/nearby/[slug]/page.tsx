@@ -7,16 +7,13 @@ import Footer from '@/components/Footer';
 import { PlaceLink, panel, textLink } from '@/components/nearby/NearbyNavigation';
 import { Link, routing } from '@/i18n/routing';
 import { buildAlternates, ogLocale } from '@/lib/seo';
-import { findPlace, mapLinks, placePath, places, relatedPlaces } from '@/lib/nearby';
+import { findPlace, mapLinks, placePath, relatedPlaces } from '@/lib/nearby';
 import { labels } from '@/lib/nearby/labels';
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
-export function generateStaticParams() {
-  return places.map(({ slug }) => ({ slug }));
-}
-
-export const dynamicParams = false;
+// Render known slugs through the application worker even when its prerender cache is cold.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
@@ -46,9 +43,13 @@ export default async function PlacePage({ params }: Props) {
 
   const t = labels[locale];
   const copy = place.copy[locale];
-  const links = mapLinks(place.mapName, locale);
+  const links = mapLinks(place, locale);
+  const faq = [
+    [t.firstStop(copy.name), copy.highlight],
+    [t.photoQuestion(copy.name), copy.photo],
+    [t.planningQuestion(copy.name), copy.visit],
+  ];
   const sections = [
-    [t.history, copy.history],
     [t.highlight, copy.highlight],
     [t.route, t.areas[place.area]],
     [t.visit, copy.visit],
@@ -66,27 +67,48 @@ export default async function PlacePage({ params }: Props) {
             <Link href={{ pathname: '/nearby', hash: place.category }} className={textLink}>{t.categories[place.category]}</Link>
           </nav>
           <h1 className="mb-5 font-display text-4xl font-bold sm:text-5xl">{copy.name}</h1>
-          <p className="mb-6 text-lg text-[var(--text-secondary)]">{t.categories[place.category]} · Chișinău</p>
-          <a className={textLink} href={links.place}>{t.showMap}</a>
+          <p className="mb-3 text-lg text-[var(--text-secondary)]">{copy.highlight}</p>
+          <p className="mb-4 text-[var(--text-secondary)]">{t.categories[place.category]} · Chișinău</p>
+          <p className="mb-3 leading-relaxed text-[var(--text-secondary)]">{t.access[place.access]}</p>
+          <a className={textLink} href={links.place}>{t.showMap} · {t.reviews}</a>
+          <aside className={`my-8 p-5 sm:p-6 ${panel}`}>
+            <h2 className="mb-2 font-display text-2xl font-semibold">{t.about(copy.name)}</h2>
+            <p className="mb-3 text-[var(--text-secondary)]">{copy.history}</p>
+            <h3 className="mb-1 font-semibold">{t.manager}</h3>
+            <p className="mb-2">
+              {place.operatorUrl ? <a className={textLink} href={place.operatorUrl}>{place.operator}</a> : place.operator || t.pendingManager}
+            </p>
+            <p className="mb-2 text-[var(--text-secondary)]">{t.access[place.access]}</p>
+            <a href={place.source} className={textLink}>{t.source}</a>
+          </aside>
+          <section className={`my-8 p-5 sm:p-6 ${panel}`}>
+            <h2 className="mb-3 font-display text-2xl font-semibold">{t.basic}</h2>
+            <dl className="grid gap-3 sm:grid-cols-2">
+              <div>
+                <dt className="font-semibold">{t.entrance}</dt>
+                <dd>{place.mapName} · Chișinău, Moldova</dd>
+              </div>
+              <div>
+                <dt className="font-semibold">{t.duration}</dt>
+                <dd>{t.time[place.access]}</dd>
+              </div>
+              <div className="sm:col-span-2">
+                <dt className="font-semibold">{t.admission}</dt>
+                <dd>{t.access[place.access]}</dd>
+              </div>
+            </dl>
+          </section>
           {place.image ? (
             <figure className="my-8">
-              {/* External photographs are only used when the place and credit have been checked. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={place.image.path} alt={copy.name} className="max-h-[55vh] w-full rounded-xl object-contain" />
-              <figcaption className="mt-2 text-sm"><a className={textLink} href={place.image.source}>{place.image.credit}</a></figcaption>
+              <img src={place.image.path} alt={t.photoCaption(copy.name)} className="max-h-[55vh] w-full rounded-xl object-contain" />
+              <figcaption className="mt-2 text-sm">{t.photoCaption(copy.name)} · <a className={textLink} href={place.image.source}>{place.image.credit}</a></figcaption>
             </figure>
           ) : (
             <div className="my-8 grid min-h-[37vh] place-items-center rounded-xl bg-[var(--bg-tertiary)] px-4 text-center text-[var(--text-muted)]">
               {t.pendingImage}
             </div>
           )}
-          <aside className={`mb-10 p-5 sm:p-6 ${panel}`}>
-            <h2 className="mb-2 font-display text-2xl font-semibold">{t.manager}</h2>
-            <p className="mb-2">
-              {place.operatorUrl ? <a className={textLink} href={place.operatorUrl}>{place.operator}</a> : place.operator || t.pendingManager}
-            </p>
-            <a href={place.source} className={textLink}>{t.source}</a>
-          </aside>
           <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
             <div className="space-y-7">
               {sections.map(([heading, content]) => (
@@ -116,13 +138,18 @@ export default async function PlacePage({ params }: Props) {
           <section className={`my-10 p-5 sm:p-6 ${panel}`}>
             <h2 className="mb-4 font-display text-2xl font-semibold">{t.faq}</h2>
             <dl className="space-y-4">
+              {faq.map(([question, answer]) => (
+                <div key={question}>
+                  <dt className="font-semibold">{question}</dt>
+                  <dd>{answer}</dd>
+                </div>
+              ))}
               <div>
-                <dt className="font-semibold">{t.accessQuestion}</dt>
-                <dd>{t.access[place.access]}</dd>
-              </div>
-              <div>
-                <dt className="font-semibold">{t.parkQuestion}</dt>
-                <dd><a href={links.walk} className={textLink}>{t.walk}</a> · <a href={links.transit} className={textLink}>{t.transit}</a></dd>
+                <dt className="font-semibold">{t.parkQuestion(copy.name)}</dt>
+                <dd>
+                  <p>{t.areas[place.area]} {t.entrance} — {place.mapName}.</p>
+                  <a href={links.walk} className={textLink}>{t.walk}</a> · <a href={links.transit} className={textLink}>{t.transit}</a>
+                </dd>
               </div>
             </dl>
           </section>
