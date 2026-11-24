@@ -1,0 +1,102 @@
+export const guideLabels = {
+  "en": {
+    "hours": "Opening hours",
+    "cost": "Admission and costs",
+    "stay": "Where to stay",
+    "history": "History and local context",
+    "itinerary": "Walking itinerary",
+    "gallery": "Site photograph",
+    "oldImage": "Original image",
+    "checked": "Source checked",
+    "garden": "A room by Ștefan cel Mare Garden makes an early garden walk easy. Around Cathedral Square, you can include the arch and bell tower on the other side of the boulevard before returning.",
+    "square": "Stay around Cathedral Square if you want to see the civic axis before the shops open. The garden side of the boulevard works for a quieter morning walk, with a marked crossing to the square.",
+    "boulevard": "Stay on the central boulevard to combine this stop with an evening in the centre. A side street towards the museum quarter gives a quieter base; check the return walk to your door after any late performance.",
+    "museumQuarter": "A base around 31 August 1989 Street suits a day linking several collections. Cathedral Square offers a central walking route through the garden; leave time for museum opening and last entry.",
+    "oldTown": "Choose the old-town streets for a morning visit without crossing the whole centre. A hotel beside Cathedral Square fits a longer walk through the historic street grid; save the exact entrance for the return.",
+    "west": "The west side of the centre suits an outing that continues toward the parks. If your evening is on the central boulevard, stay there and arrange the outward and return journeys separately.",
+    "district": "Choose a base in the destination neighbourhood for an early visit. Staying near the central park suits a multi-district trip; check the return transport from this particular entrance before setting out.",
+    "fees": {
+      "outdoor": "No ticket is needed to view the landmark from public space. Transport, events and private services are separate.",
+      "exterior": "Viewing the façade from public pavement needs no admission ticket. Ask the institution directly about any interior tour.",
+      "museum": "Check the venue’s current admission, reduced rates and separate exhibition or guiding charges before buying a ticket.",
+      "show": "Use the ticket for the named production, date and seat. The producer or venue gives the current price for that performance.",
+      "worship": "Confirm visitor arrangements with the religious community. Optional donations and any guided visits are separate.",
+      "garden": "Check today’s entrance tariff and any separate charges for guided walks or special collections at the garden gate."
+    }
+  },
+  "ro": {
+    "hours": "Program de vizitare",
+    "cost": "Intrare și costuri",
+    "stay": "Unde să te cazezi",
+    "history": "Istorie și context local",
+    "itinerary": "Itinerar pietonal",
+    "gallery": "Fotografie de la fața locului",
+    "oldImage": "Imaginea originală",
+    "checked": "Sursă consultată",
+    "garden": "O cazare lângă Grădina Ștefan cel Mare permite o plimbare matinală. Lângă Scuarul Catedralei poți include arcul și clopotnița de cealaltă parte a bulevardului înainte de întoarcere.",
+    "square": "Stai lângă Scuarul Catedralei pentru axa civică înainte de deschiderea magazinelor. Pe partea grădinii ai alei pentru dimineață și o trecere marcată spre piață.",
+    "boulevard": "Pe bulevardul central poți combina oprirea cu o seară în centru. O stradă laterală spre cartierul muzeelor oferă o bază mai liniștită; verifică drumul la întoarcerea de la un spectacol târziu.",
+    "museumQuarter": "O bază în zona străzii 31 August 1989 ajută la vizitarea mai multor colecții. De la Scuarul Catedralei poți traversa centrul prin grădină; ține cont de deschidere și de ultima intrare.",
+    "oldTown": "Alege străzile orașului vechi pentru o vizită matinală. Cazarea lângă Scuarul Catedralei se potrivește unui traseu mai lung prin cartier; salvează intrarea exactă pentru întoarcere.",
+    "west": "Partea vestică a centrului se potrivește unei ieșiri spre parcuri. Pentru o seară pe bulevardul central, cazează-te acolo și organizează separat deplasarea la dus și la întors.",
+    "district": "Alege cazare în cartierul obiectivului pentru o vizită matinală. Grădina centrală se potrivește unui circuit prin mai multe cartiere; verifică transportul de întoarcere de la intrarea aleasă.",
+    "fees": {
+      "outdoor": "Privirea obiectivului din spațiul public nu necesită bilet. Transportul, evenimentele și serviciile private se plătesc separat.",
+      "exterior": "Pentru fațada văzută de pe trotuar nu ai nevoie de bilet. Întreabă instituția despre eventualele tururi interioare.",
+      "museum": "Înainte de bilet verifică la instituție tariful, reducerile și eventualele costuri pentru expoziții sau ghidaj.",
+      "show": "Folosește biletul pentru producția, data și locul indicate. Organizatorul sau sala comunică prețul spectacolului.",
+      "worship": "Verifică regulile de vizitare la comunitatea religioasă. Donațiile și eventualele tururi ghidate sunt separate.",
+      "garden": "Verifică la poartă tariful zilei și costurile separate pentru tururi sau colecții speciale."
+    }
+  },
+  "es": {
+    "hours": "Horario de apertura",
+    "cost": "Entradas y gastos",
+    "stay": "Dónde alojarse",
+    "history": "Historia y contexto local",
+    "itinerary": "Recorrido a pie",
+    "gallery": "Fotografía del lugar",
+    "oldImage": "Imagen original",
+    "checked": "Fuente consultada",
+    "garden": "Un alojamiento junto al jardín Ștefan cel Mare facilita el paseo matinal. Desde la plaza de la Catedral puedes sumar arco y campanario al otro lado del bulevar.",
+    "square": "Alójate cerca de la plaza de la Catedral para ver el eje cívico antes de que abran las tiendas. El lado del jardín ofrece un paseo tranquilo y un cruce señalizado hacia la plaza.",
+    "boulevard": "El bulevar central permite combinar la visita con una noche en el centro. Una calle lateral hacia los museos ofrece más tranquilidad; comprueba la vuelta si sales tarde de un espectáculo.",
+    "museumQuarter": "La zona de la calle 31 August 1989 conviene para enlazar colecciones. Desde la plaza de la Catedral puedes atravesar el centro por el jardín; cuenta con la apertura y la última entrada.",
+    "oldTown": "El casco antiguo conviene para una visita matinal. Un hotel junto a la plaza de la Catedral permite un recorrido más largo por la trama histórica; guarda el acceso exacto para regresar.",
+    "west": "El oeste del centro conviene para continuar hacia los parques. Si pasas la noche en el bulevar central, alójate allí y prepara por separado la ida y la vuelta.",
+    "district": "El barrio del destino conviene para una visita temprana. El parque central sirve de base para explorar varios distritos; consulta el regreso desde el acceso elegido antes de salir.",
+    "fees": {
+      "outdoor": "Para verlo desde el espacio público no hace falta entrada. Transporte, actos y servicios privados se pagan aparte.",
+      "exterior": "Ver la fachada desde la acera no requiere billete. Consulta a la institución por posibles visitas interiores.",
+      "museum": "Antes de pagar confirma entrada, descuentos y cargos por exposiciones o guía con el recinto.",
+      "show": "Usa el billete de la producción, fecha y asiento indicados. El organizador o la sala publica su precio.",
+      "worship": "Confirma las condiciones con la comunidad religiosa. Las donaciones y posibles visitas guiadas son independientes.",
+      "garden": "Consulta en la puerta la tarifa del día y los costes de visitas guiadas o colecciones especiales."
+    }
+  },
+  "zh": {
+    "hours": "开放时间",
+    "cost": "门票及费用",
+    "stay": "住宿区位",
+    "history": "历史与地方意义",
+    "itinerary": "实地步行路线",
+    "gallery": "实景照片",
+    "oldImage": "原始照片",
+    "checked": "资料核对日期",
+    "garden": "住史蒂芬大帝公园旁方便早起走园路；住座堂广场一侧则能先看大道对面的凯旋门与钟楼，再返回。",
+    "square": "住座堂广场旁可在商店开门前看城市轴线；若住公园一侧，清晨可先走园路，再从标示路口过大道。",
+    "boulevard": "住中央大道沿线便于白天参观、晚上在市中心活动。靠博物馆街区的侧街相对清静，若看晚场则先选好回住处的步行路线。",
+    "museumQuarter": "住1989年8月31日街一带适合一天串访多座场馆。住座堂广场可经公园步行穿过市中心，出发时须把开放时段和最后入场时间算进去。",
+    "oldTown": "住旧城区便于清早到访，无需横穿整个中心。若想沿老街走较长路线，可住座堂广场附近，并保存具体入口便于返程。",
+    "west": "住市中心西侧适合继续往公园方向游览。若晚间活动在中央大道，可住大道附近，分别安排去程与返程。",
+    "district": "想早到可住景点所在街区。住中央公园附近则适合串访多个城区，但出发前要确认从这个具体入口回市区的交通。",
+    "fees": {
+      "outdoor": "从公共区域观看无需门票，交通、活动及私人服务另计。",
+      "exterior": "在人行道看外观无需门票；入内导览请另询机构。",
+      "museum": "购票前向场馆核当前门票、适用优惠及是否另收临展和讲解费。",
+      "show": "按演出名称、日期与座位购票，当场价格由主办方或场馆公布。",
+      "worship": "参观安排向宗教团体确认；自愿捐献和可能的导览分别办理。",
+      "garden": "在花园入口查当日票价及讲解、特别收藏区域是否另收费。"
+    }
+  }
+} as const;

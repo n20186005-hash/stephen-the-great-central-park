@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import { guideLabels } from '@/lib/nearby/guide-labels';
 import Footer from '@/components/Footer';
 import { PlaceLink, panel, textLink } from '@/components/nearby/NearbyNavigation';
 import { Link, routing } from '@/i18n/routing';
@@ -44,37 +46,42 @@ export default async function PlacePage({ params }: Props) {
   const t = labels[locale];
   const copy = place.copy[locale];
   const links = mapLinks(place, locale);
+  const g = guideLabels[locale];
   const faq = [
-    [t.firstStop(copy.name), copy.highlight],
-    [t.photoQuestion(copy.name), copy.photo],
+    [copy.detailQuestion, copy.highlight],
+    [copy.viewQuestion, copy.photo],
     [t.planningQuestion(copy.name), copy.visit],
   ];
   const sections = [
+    [g.history, copy.historyDetail ?? copy.history],
     [t.highlight, copy.highlight],
     [t.route, copy.route ?? t.areas[place.area]],
     [t.visit, copy.visit],
     [t.photo, copy.photo],
+    [g.stay, g[place.area]],
   ];
 
   return (
     <>
-      <Header solid />
-      <main className="pt-16">
+      <Header />
+      <main>
+        {place.image && <Hero place={{name: copy.name, subtitle: copy.highlight, type: t.categories[place.category],
+          map: links.place, image: place.image.heroPath ?? place.image.path, alt: copy.caption}} />}
         <article className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-14">
           <nav aria-label={t.nearby} className="mb-5 flex flex-wrap gap-x-3 text-sm">
             <Link href="/" className={textLink}>{t.home}</Link>
             <span aria-hidden="true">/</span>
             <Link href={{ pathname: '/nearby', hash: place.category }} className={textLink}>{t.categories[place.category]}</Link>
           </nav>
-          <h1 className="mb-5 font-display text-4xl font-bold sm:text-5xl">{copy.name}</h1>
-          <p className="mb-3 text-lg text-[var(--text-secondary)]">{copy.highlight}</p>
+          {!place.image && <h1 className="mb-5 font-display text-4xl font-bold sm:text-5xl">{copy.name}</h1>}
+          <p className="mb-3 text-lg text-[var(--text-secondary)]">{copy.route}</p>
           <p className="mb-4 text-[var(--text-secondary)]">{t.categories[place.category]} · Chișinău</p>
           <p className="mb-3 leading-relaxed text-[var(--text-secondary)]">{t.access[place.access]}</p>
           <a className={textLink} href={links.place}>{t.showMap} · {t.reviews}</a>
           <aside className={`my-8 p-5 sm:p-6 ${panel}`}>
             <h2 className="mb-2 font-display text-2xl font-semibold">{t.about(copy.name)}</h2>
             <p className="mb-3 text-[var(--text-secondary)]">{copy.history}</p>
-            {copy.historyDetail && <p className="mb-3 text-[var(--text-secondary)]">{copy.historyDetail}</p>}
+
             <h3 className="mb-1 font-semibold">{t.manager}</h3>
             <p className="mb-2">
               {place.operatorUrl ? <a className={textLink} href={place.operatorUrl}>{place.operator}</a> : place.operator || copy.operatorNote || t.pendingManager}
@@ -105,11 +112,16 @@ export default async function PlacePage({ params }: Props) {
               </div>
             </dl>
           </section>
+          <div className="my-8 grid gap-6 sm:grid-cols-2">
+            <section className={`p-5 ${panel}`}><h2 className="mb-2 font-display text-2xl font-semibold">{g.hours}</h2>
+              <p>{t.access[place.access]}</p><a className={textLink} href={place.operatorUrl ?? place.source}>{place.operator ?? t.source}</a></section>
+            <section className={`p-5 ${panel}`}><h2 className="mb-2 font-display text-2xl font-semibold">{g.cost}</h2><p>{g.fees[place.access]}</p></section>
+          </div>
           {place.image ? (
-            <figure className="my-8">
+            <figure className="my-8"><h2 className="mb-3 font-display text-2xl font-semibold">{g.gallery}</h2>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={place.image.path} alt={t.photoCaption(copy.name)} className="max-h-[55vh] w-full rounded-xl object-contain" />
-              <figcaption className="mt-2 text-sm">{t.photoCaption(copy.name)} · <a className={textLink} href={place.image.source}>{place.image.credit}</a></figcaption>
+              <img src={place.image.path} alt={place.image.heroPath ? t.photoCaption(copy.name) : copy.caption} className="max-h-[55vh] w-full rounded-xl object-contain" />
+              <figcaption className="mt-2 text-sm">{place.image.heroPath ? t.photoCaption(copy.name) : copy.caption} · <a className={textLink} href={place.image.source}>{place.image.credit}</a>{place.image.original && <> · <a className={textLink} href={place.image.original}>{g.oldImage}</a></>}</figcaption>
             </figure>
           ) : (
             <div className="my-8 grid min-h-[37vh] place-items-center rounded-xl bg-[var(--bg-tertiary)] px-4 text-center text-[var(--text-muted)]">
@@ -142,6 +154,13 @@ export default async function PlacePage({ params }: Props) {
               </ul>
             </section>
           </div>
+          <section className={`my-8 p-5 sm:p-6 ${panel}`}>
+            <h2 className="mb-3 font-display text-2xl font-semibold">{g.itinerary}</h2>
+            <ol className="list-decimal ps-5 space-y-2"><li>{copy.route ?? t.areas[place.area]}</li><li>{copy.highlight}</li><li>{copy.visit}</li></ol>
+          </section>
+          <section className={`my-8 p-5 sm:p-6 ${panel}`}>
+            <h2 className="mb-3 font-display text-2xl font-semibold">{t.reviews}</h2><a className={textLink} href={links.place}>{t.reviews} · {copy.name}</a>
+          </section>
           <section className={`my-10 p-5 sm:p-6 ${panel}`}>
             <h2 className="mb-4 font-display text-2xl font-semibold">{t.faq}</h2>
             <dl className="space-y-4">
@@ -160,6 +179,7 @@ export default async function PlacePage({ params }: Props) {
               </div>
             </dl>
           </section>
+          <p className="my-6 text-sm">{g.checked} · 2026-11-24 · <a href={place.source} className={textLink}>{t.source}</a></p>
           <section>
             <h2 className="mb-4 font-display text-2xl font-semibold">{t.related}</h2>
             <ul className="grid gap-3 sm:grid-cols-3">

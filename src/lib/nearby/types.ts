@@ -11,6 +11,9 @@ export interface PlaceCopy {
   highlight: string;
   photo: string;
   visit: string;
+  detailQuestion: string;
+  viewQuestion: string;
+  caption: string;
   route?: string;
   operatorNote?: string;
 }
@@ -27,6 +30,6 @@ export interface NearbyPlace {
   operatorEvidence?: string;
   historySource?: string;
   coordinates?: { lat: number; lng: number };
-  image?: { path: string; credit: string; source: string };
+  image?: { path: string; credit: string; source: string; original?: string; heroPath?: string; heroSource?: string };
   copy: Record<Locale, PlaceCopy>;
 }

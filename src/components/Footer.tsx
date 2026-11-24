@@ -1,9 +1,10 @@
+import type { Locale } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const prefix = `/${locale}`;
 
   return (
@@ -42,6 +43,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
+            <a href={`${prefix}/nearby`} className="hover:underline" style={{ color: 'var(--text-secondary)' }}>
+              {{en:'Nearby places',ro:'În apropiere',es:'Lugares cercanos',zh:'周边景点'}[locale]}
+            </a>
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
               {t('privacy')}
             </a>
