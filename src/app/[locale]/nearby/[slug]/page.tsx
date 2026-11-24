@@ -51,7 +51,7 @@ export default async function PlacePage({ params }: Props) {
   ];
   const sections = [
     [t.highlight, copy.highlight],
-    [t.route, t.areas[place.area]],
+    [t.route, copy.route ?? t.areas[place.area]],
     [t.visit, copy.visit],
     [t.photo, copy.photo],
   ];
@@ -74,12 +74,19 @@ export default async function PlacePage({ params }: Props) {
           <aside className={`my-8 p-5 sm:p-6 ${panel}`}>
             <h2 className="mb-2 font-display text-2xl font-semibold">{t.about(copy.name)}</h2>
             <p className="mb-3 text-[var(--text-secondary)]">{copy.history}</p>
+            {copy.historyDetail && <p className="mb-3 text-[var(--text-secondary)]">{copy.historyDetail}</p>}
             <h3 className="mb-1 font-semibold">{t.manager}</h3>
             <p className="mb-2">
-              {place.operatorUrl ? <a className={textLink} href={place.operatorUrl}>{place.operator}</a> : place.operator || t.pendingManager}
+              {place.operatorUrl ? <a className={textLink} href={place.operatorUrl}>{place.operator}</a> : place.operator || copy.operatorNote || t.pendingManager}
             </p>
+            {place.operatorEvidence && (
+              <p className="mb-2"><a className={textLink} href={place.operatorEvidence}>{t.evidence}</a></p>
+            )}
             <p className="mb-2 text-[var(--text-secondary)]">{t.access[place.access]}</p>
             <a href={place.source} className={textLink}>{t.source}</a>
+            {place.historySource && (
+              <p className="mt-2"><a className={textLink} href={place.historySource}>{t.historySource}</a></p>
+            )}
           </aside>
           <section className={`my-8 p-5 sm:p-6 ${panel}`}>
             <h2 className="mb-3 font-display text-2xl font-semibold">{t.basic}</h2>

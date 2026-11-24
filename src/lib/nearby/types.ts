@@ -7,9 +7,12 @@ export type Access = 'outdoor' | 'exterior' | 'museum' | 'show' | 'worship' | 'g
 export interface PlaceCopy {
   name: string;
   history: string;
+  historyDetail?: string;
   highlight: string;
   photo: string;
   visit: string;
+  route?: string;
+  operatorNote?: string;
 }
 
 export interface NearbyPlace {
@@ -21,6 +24,8 @@ export interface NearbyPlace {
   source: string;
   operator?: string;
   operatorUrl?: string;
+  operatorEvidence?: string;
+  historySource?: string;
   coordinates?: { lat: number; lng: number };
   image?: { path: string; credit: string; source: string };
   copy: Record<Locale, PlaceCopy>;
